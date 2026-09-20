@@ -16,6 +16,7 @@ for(const [name,mutate] of [
  ['missing title',(e:any[])=>delete e[0].title],
 ] as const){test(`rejects ${name}`,()=>{const copy=structuredClone(entityData);mutate(copy);assert.throws(()=>validateData(copy,resourceData))})}
 test('rejects unsafe source URLs',()=>{const copy=structuredClone(resourceData);copy[0].url='javascript:alert(1)';assert.throws(()=>validateData(entityData,copy))});
-for(const [query,id] of [['DN1','dn-01'],['Phạm Võng','dn-01'],['pham vong','dn-01'],['Brahmajala','dn-01'],['Satipatthana','mn-010'],['MN 10','mn-010'],['Heart Sutra','t-0251'],['chuyen phap luan','sn-56-11']]){test(`finds ${query}`,()=>assert.ok(search(searchEntries,query).some(e=>e.id===id)))}
+for(const [query,id] of [['DN1','dn-01'],['Phạm Võng','dn-01'],['pham vong','dn-01'],['Brahmajala','dn-01'],['Satipatthana','mn-010'],['MN 10','mn-010'],['Heart Sutra','t-0251'],['chuyen phap luan','sn-56-11'],['Dhp','dhammapada'],['Pháp Cú','dhammapada'],['Dhammapada','dhammapada'],['Pháp Tụ','dhammasangani'],['Đại phẩm','mahavagga']]){test(`finds ${query}`,()=>assert.ok(search(searchEntries,query).some(e=>e.id===id)))}
 test('exact identifier is ranked first',()=>assert.equal(search(searchEntries,'DN1')[0].id,'dn-01'));
+test('exact Dhp identifier is ranked first',()=>assert.equal(search(searchEntries,'Dhp')[0].id,'dhammapada'));
 test('unknown query returns no matches',()=>assert.equal(search(searchEntries,'nonexistent-xyz').length,0));

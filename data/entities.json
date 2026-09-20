@@ -2635,5 +2635,732 @@
       "https://cbetaonline.dila.edu.tw/zh/T0001",
       "https://www.daitangkinhvietnam.org/node/8697"
     ]
+  },
+  {
+    "id": "bhikkhu-vibhanga",
+    "type": "text",
+    "title": "Phân tích giới Tỳ khưu",
+    "titles": {
+      "vi": "Phân tích giới Tỳ khưu",
+      "pli": "Bhikkhuvibhaṅga",
+      "en": "Monks' Rules and Explanations"
+    },
+    "aliases": [
+      "Mahāvibhaṅga",
+      "Đại phân tích",
+      "Giới bổn Tỳ khưu"
+    ],
+    "identifier": "Bu Vb",
+    "parent": "vinaya-pitaka",
+    "description": "Phần phân tích chi tiết 227 điều giới của Tỳ khưu (Bhikkhu Pātimokkha) cùng duyên khởi, ý nghĩa và các trường hợp phạm giới.",
+    "tags": [
+      "luật tạng",
+      "giới luật",
+      "tỳ khưu"
+    ],
+    "relations": [],
+    "resourceIds": [],
+    "sources": [
+      "https://suttacentral.net/pitaka/vinaya/pli-tv-bu-vb"
+    ]
+  },
+  {
+    "id": "bhikkhuni-vibhanga",
+    "type": "text",
+    "title": "Phân tích giới Tỳ khưu ni",
+    "titles": {
+      "vi": "Phân tích giới Tỳ khưu ni",
+      "pli": "Bhikkhunīvibhaṅga",
+      "en": "Nuns' Rules and Explanations"
+    },
+    "aliases": [
+      "Giới bổn Tỳ khưu ni"
+    ],
+    "identifier": "Bi Vb",
+    "parent": "vinaya-pitaka",
+    "description": "Phần phân tích các điều giới dành riêng cho Tỳ khưu ni cùng duyên khởi, ý nghĩa và các quy định biệt giải.",
+    "tags": [
+      "luật tạng",
+      "giới luật",
+      "tỳ khưu ni"
+    ],
+    "relations": [],
+    "resourceIds": [],
+    "sources": [
+      "https://suttacentral.net/pitaka/vinaya/pli-tv-bi-vb"
+    ]
+  },
+  {
+    "id": "mahavagga",
+    "type": "text",
+    "title": "Đại phẩm",
+    "titles": {
+      "vi": "Đại phẩm",
+      "pli": "Mahāvagga",
+      "en": "The Great Chapter"
+    },
+    "aliases": [
+      "Khandhaka Đại phẩm",
+      "Đại phẩm Luật"
+    ],
+    "identifier": "Kd 1",
+    "parent": "vinaya-pitaka",
+    "description": "Tập hợp các chương quy định lớn về đời sống Tăng đoàn: xuất gia, thọ giới, lễ Uposatha (Bố-tát), an cư kiết hạ, y phục, thuốc men.",
+    "tags": [
+      "luật tạng",
+      "khandhaka",
+      "tăng đoàn"
+    ],
+    "relations": [],
+    "resourceIds": [],
+    "sources": [
+      "https://suttacentral.net/pitaka/vinaya/pli-tv-kd"
+    ]
+  },
+  {
+    "id": "cullavagga",
+    "type": "text",
+    "title": "Tiểu phẩm",
+    "titles": {
+      "vi": "Tiểu phẩm",
+      "pli": "Cullavagga",
+      "en": "The Lesser Chapter"
+    },
+    "aliases": [
+      "Cūḷavagga",
+      "Khandhaka Tiểu phẩm"
+    ],
+    "identifier": "Kd 2",
+    "parent": "vinaya-pitaka",
+    "description": "Tập hợp các chương về nghi thức sinh hoạt, giải quyết tranh chấp (hành sự), chỗ ở tiện nghi, thành lập Ni đoàn và lịch sử hai kỳ kết tập kinh điển đầu tiên.",
+    "tags": [
+      "luật tạng",
+      "khandhaka",
+      "kết tập"
+    ],
+    "relations": [],
+    "resourceIds": [],
+    "sources": [
+      "https://suttacentral.net/pitaka/vinaya/pli-tv-kd"
+    ]
+  },
+  {
+    "id": "parivara",
+    "type": "text",
+    "title": "Tập yếu",
+    "titles": {
+      "vi": "Tập yếu",
+      "pli": "Parivāra",
+      "en": "The Compendium"
+    },
+    "aliases": [
+      "Tập yếu Luật",
+      "Parivārapāṭha"
+    ],
+    "identifier": "Pvr",
+    "parent": "vinaya-pitaka",
+    "description": "Sách toát yếu đúc kết và trắc nghiệm kiến thức giới luật dưới dạng vấn đáp, phân loại đề tài phục vụ nghiên cứu và hướng dẫn đệ tử.",
+    "tags": [
+      "luật tạng",
+      "tập yếu",
+      "vấn đáp"
+    ],
+    "relations": [],
+    "resourceIds": [],
+    "sources": [
+      "https://suttacentral.net/pitaka/vinaya/pli-tv-pvr"
+    ]
+  },
+  {
+    "id": "khuddakapatha",
+    "type": "text",
+    "title": "Tiểu Tụng",
+    "titles": {
+      "vi": "Tiểu Tụng",
+      "pli": "Khuddakapāṭha",
+      "en": "Short Readings"
+    },
+    "aliases": [
+      "Kinh Tiểu Tụng"
+    ],
+    "identifier": "Kp",
+    "parent": "khuddaka-nikaya",
+    "description": "Tuyển tập 9 bài kinh tụng ngắn dùng cho người mới xuất gia và cư sĩ: Tam quy, Mười giới, Điềm lành (Mangala), Châu báu (Ratana).",
+    "tags": [
+      "tiểu bộ",
+      "kinh tạng",
+      "khuddaka"
+    ],
+    "relations": [],
+    "resourceIds": [],
+    "sources": [
+      "https://suttacentral.net/kp"
+    ]
+  },
+  {
+    "id": "dhammapada",
+    "type": "text",
+    "title": "Pháp Cú",
+    "titles": {
+      "vi": "Pháp Cú",
+      "pli": "Dhammapada",
+      "en": "The Path of Dhamma"
+    },
+    "aliases": [
+      "Kinh Pháp Cú",
+      "Lời Phật dạy tóm tắt"
+    ],
+    "identifier": "Dhp",
+    "parent": "khuddaka-nikaya",
+    "description": "Tập hợp 423 bài kệ ngôn bất hủ của Đức Phật chia thành 26 phẩm, đúc kết tinh hoa giáo lý và đạo đức Phật giáo.",
+    "tags": [
+      "tiểu bộ",
+      "pháp cú",
+      "kệ ngôn"
+    ],
+    "relations": [],
+    "resourceIds": [],
+    "sources": [
+      "https://suttacentral.net/dhp"
+    ]
+  },
+  {
+    "id": "udana",
+    "type": "text",
+    "title": "Phật Tự Thuyết",
+    "titles": {
+      "vi": "Phật Tự Thuyết",
+      "pli": "Udāna",
+      "en": "Verses of Uplift"
+    },
+    "aliases": [
+      "Kinh Phật Tự Thuyết",
+      "Ưu-đà-na"
+    ],
+    "identifier": "Ud",
+    "parent": "khuddaka-nikaya",
+    "description": "Tập hợp 80 bài kinh chia thành 8 phẩm, ghi lại những lời cảm hứng tràn đầy trí tuệ do Đức Phật tự tuyên thuyết không đợi ai thỉnh vấn.",
+    "tags": [
+      "tiểu bộ",
+      "tự thuyết",
+      "udana"
+    ],
+    "relations": [],
+    "resourceIds": [],
+    "sources": [
+      "https://suttacentral.net/ud"
+    ]
+  },
+  {
+    "id": "itivuttaka",
+    "type": "text",
+    "title": "Như Thị Ngữ",
+    "titles": {
+      "vi": "Như Thị Ngữ",
+      "pli": "Itivuttaka",
+      "en": "Thus It Was Said"
+    },
+    "aliases": [
+      "Kinh Phật Thuyết Như Vậy",
+      "Kinh Như Thị Ngữ"
+    ],
+    "identifier": "Iti",
+    "parent": "khuddaka-nikaya",
+    "description": "Tuyển tập 112 bài kinh ngắn bắt đầu bằng công thức 'Điều này đã được Đức Thế Tôn thuyết giảng', phân loại theo nhóm một pháp đến bốn pháp.",
+    "tags": [
+      "tiểu bộ",
+      "như thị ngữ",
+      "itivuttaka"
+    ],
+    "relations": [],
+    "resourceIds": [],
+    "sources": [
+      "https://suttacentral.net/iti"
+    ]
+  },
+  {
+    "id": "sutta-nipata",
+    "type": "text",
+    "title": "Kinh Tập",
+    "titles": {
+      "vi": "Kinh Tập",
+      "pli": "Sutta Nipāta",
+      "en": "The Sutta Collection"
+    },
+    "aliases": [
+      "Tập hợp kinh kệ cổ"
+    ],
+    "identifier": "Snp",
+    "parent": "khuddaka-nikaya",
+    "description": "Tập hợp các bài kinh bằng thể kệ cổ xưa nhất của Phật giáo, gồm 5 phẩm như Phẩm Rắn, Phẩm Nhỏ, Phẩm Lớn, Phẩm Tám và Phẩm Đi Đến Bờ Kia.",
+    "tags": [
+      "tiểu bộ",
+      "kinh tập",
+      "sutta nipata"
+    ],
+    "relations": [],
+    "resourceIds": [],
+    "sources": [
+      "https://suttacentral.net/snp"
+    ]
+  },
+  {
+    "id": "vimanavatthu",
+    "type": "text",
+    "title": "Thiên Cung Sự",
+    "titles": {
+      "vi": "Thiên Cung Sự",
+      "pli": "Vimānavatthu",
+      "en": "Stories of Heavenly Mansions"
+    },
+    "aliases": [
+      "Chuyện Thiên Cung"
+    ],
+    "identifier": "Vv",
+    "parent": "khuddaka-nikaya",
+    "description": "85 câu chuyện bằng thể kệ thuật lại cảnh giới thù thắng ở các thiên cung do quả báo của thiện nghiệp, bố thí, trì giới trong quá khứ.",
+    "tags": [
+      "tiểu bộ",
+      "nghiệp báo",
+      "thiên cung"
+    ],
+    "relations": [],
+    "resourceIds": [],
+    "sources": [
+      "https://suttacentral.net/vv"
+    ]
+  },
+  {
+    "id": "petavatthu",
+    "type": "text",
+    "title": "Ngạ Quỷ Sự",
+    "titles": {
+      "vi": "Ngạ Quỷ Sự",
+      "pli": "Petavatthu",
+      "en": "Stories of Hungry Ghosts"
+    },
+    "aliases": [
+      "Chuyện Ngạ Quỷ"
+    ],
+    "identifier": "Pv",
+    "parent": "khuddaka-nikaya",
+    "description": "51 câu chuyện kệ về hoàn cảnh khổ nạn của loài ngạ quỷ do các ác nghiệp như bỏn xẻn, tham lam, bất kính với bậc thánh trong đời trước.",
+    "tags": [
+      "tiểu bộ",
+      "nghiệp báo",
+      "ngạ quỷ"
+    ],
+    "relations": [],
+    "resourceIds": [],
+    "sources": [
+      "https://suttacentral.net/pv"
+    ]
+  },
+  {
+    "id": "theragatha",
+    "type": "text",
+    "title": "Trưởng Lão Tăng Kệ",
+    "titles": {
+      "vi": "Trưởng Lão Tăng Kệ",
+      "pli": "Theragāthā",
+      "en": "Verses of the Senior Monks"
+    },
+    "aliases": [
+      "Kệ Trưởng Lão Tăng"
+    ],
+    "identifier": "Thag",
+    "parent": "khuddaka-nikaya",
+    "description": "Khúc ca giác ngộ và thi kệ tâm linh của 264 vị Đại đức Tỳ khưu đệ tử Phật, ca ngợi cảnh thanh tịnh, thiền định và giải thoát Niết-bàn.",
+    "tags": [
+      "tiểu bộ",
+      "trưởng lão tăng",
+      "kệ ngôn"
+    ],
+    "relations": [],
+    "resourceIds": [],
+    "sources": [
+      "https://suttacentral.net/thag"
+    ]
+  },
+  {
+    "id": "therigatha",
+    "type": "text",
+    "title": "Trưởng Lão Ni Kệ",
+    "titles": {
+      "vi": "Trưởng Lão Ni Kệ",
+      "pli": "Therīgāthā",
+      "en": "Verses of the Senior Nuns"
+    },
+    "aliases": [
+      "Kệ Trưởng Lão Ni"
+    ],
+    "identifier": "Thig",
+    "parent": "khuddaka-nikaya",
+    "description": "Tuyển tập 73 bài thi kệ của các bậc Thánh Ni đệ tử Phật, ghi lại hành trình vượt qua định kiến và khổ đau để đạt giải thoát tối thượng.",
+    "tags": [
+      "tiểu bộ",
+      "trưởng lão ni",
+      "kệ ngôn"
+    ],
+    "relations": [],
+    "resourceIds": [],
+    "sources": [
+      "https://suttacentral.net/thig"
+    ]
+  },
+  {
+    "id": "jataka",
+    "type": "text",
+    "title": "Bổn Sanh",
+    "titles": {
+      "vi": "Bổn Sanh",
+      "pli": "Jātaka",
+      "en": "Birth Stories"
+    },
+    "aliases": [
+      "Tiền Thân Đức Phật",
+      "Truyện Bổn Sanh"
+    ],
+    "identifier": "Ja",
+    "parent": "khuddaka-nikaya",
+    "description": "547 câu chuyện về các tiền kiếp của Bồ-tát tu tập trọn vẹn các pháp Ba-la-mật trước khi thành đạo dưới cội Bồ-đề.",
+    "tags": [
+      "tiểu bộ",
+      "tiền thân",
+      "jataka",
+      "bổn sanh"
+    ],
+    "relations": [],
+    "resourceIds": [],
+    "sources": [
+      "https://suttacentral.net/ja"
+    ]
+  },
+  {
+    "id": "niddesa",
+    "type": "text",
+    "title": "Nghĩa Thích",
+    "titles": {
+      "vi": "Nghĩa Thích",
+      "pli": "Niddesa",
+      "en": "Exposition"
+    },
+    "aliases": [
+      "Đại Nghĩa Thích và Tiểu Nghĩa Thích",
+      "Mahāniddesa & Cūḷaniddesa"
+    ],
+    "identifier": "Nd",
+    "parent": "khuddaka-nikaya",
+    "description": "Tập giải thích chú giải cổ xưa giải nghĩa tường tận các phẩm thi kệ trong Kinh Tập (Sutta Nipāta), tương truyền do Tôn giả Xá-lợi-phất trùng tuyên.",
+    "tags": [
+      "tiểu bộ",
+      "nghĩa thích",
+      "chú giải"
+    ],
+    "relations": [],
+    "resourceIds": [],
+    "sources": [
+      "https://suttacentral.net/mnd"
+    ]
+  },
+  {
+    "id": "patisambhidamagga",
+    "type": "text",
+    "title": "Vô Ngại Giải Đạo",
+    "titles": {
+      "vi": "Vô Ngại Giải Đạo",
+      "pli": "Paṭisambhidāmagga",
+      "en": "Path of Discrimination"
+    },
+    "aliases": [
+      "Đạo Phân Tích",
+      "Kinh Vô Ngại Giải Đạo"
+    ],
+    "identifier": "Pts",
+    "parent": "khuddaka-nikaya",
+    "description": "Tác phẩm phân tích sâu sắc về bốn tuệ vô ngại (nghĩa, pháp, từ, biện), ngũ căn ngũ lực, định niệm hơi thở và các tầng tu chứng theo phương pháp luận vi tế.",
+    "tags": [
+      "tiểu bộ",
+      "vô ngại giải",
+      "luận giải"
+    ],
+    "relations": [],
+    "resourceIds": [],
+    "sources": [
+      "https://suttacentral.net/ps"
+    ]
+  },
+  {
+    "id": "apadana",
+    "type": "text",
+    "title": "Thí Dụ",
+    "titles": {
+      "vi": "Thí Dụ",
+      "pli": "Apadāna",
+      "en": "Traditions of the Elders"
+    },
+    "aliases": [
+      "Thánh Nhân Ký Sự",
+      "Truyện Kể Các Bậc Thánh"
+    ],
+    "identifier": "Ap",
+    "parent": "khuddaka-nikaya",
+    "description": "Tuyển tập tiểu sử bằng thi kệ kể về tiền thân và công hạnh tu tập của Đức Phật, các vị Độc Giác Phật và các vị Thánh Tăng, Thánh Ni.",
+    "tags": [
+      "tiểu bộ",
+      "thí dụ",
+      "apadana"
+    ],
+    "relations": [],
+    "resourceIds": [],
+    "sources": [
+      "https://suttacentral.net/tha-ap"
+    ]
+  },
+  {
+    "id": "buddhavamsa",
+    "type": "text",
+    "title": "Phật Sử",
+    "titles": {
+      "vi": "Phật Sử",
+      "pli": "Buddhavaṃsa",
+      "en": "Chronicle of Buddhas"
+    },
+    "aliases": [
+      "Lịch Sử Chư Phật"
+    ],
+    "identifier": "Bv",
+    "parent": "khuddaka-nikaya",
+    "description": "Ghi lại thi kệ lịch sử 24 vị Phật quá khứ mà Đức Phật Gotama từng diện kiến và được thọ ký trong các tiền kiếp cho đến khi đắc quả Toàn giác.",
+    "tags": [
+      "tiểu bộ",
+      "phật sử",
+      "chư phật"
+    ],
+    "relations": [],
+    "resourceIds": [],
+    "sources": [
+      "https://suttacentral.net/bv"
+    ]
+  },
+  {
+    "id": "cariyapitaka",
+    "type": "text",
+    "title": "Sở Hạnh Tạng",
+    "titles": {
+      "vi": "Sở Hạnh Tạng",
+      "pli": "Cariyāpiṭaka",
+      "en": "Basket of Conduct"
+    },
+    "aliases": [
+      "Hạnh Tạng",
+      "Hạnh Nguyện Bồ Tát"
+    ],
+    "identifier": "Cp",
+    "parent": "khuddaka-nikaya",
+    "description": "Tập hợp 35 câu chuyện kệ minh họa quá trình thực hành mười pháp Ba-la-mật (bố thí, trì giới, xuất gia, trí tuệ...) của Bồ-tát.",
+    "tags": [
+      "tiểu bộ",
+      "hạnh tạng",
+      "ba-la-mật"
+    ],
+    "relations": [],
+    "resourceIds": [],
+    "sources": [
+      "https://suttacentral.net/cp"
+    ]
+  },
+  {
+    "id": "dhammasangani",
+    "type": "text",
+    "title": "Pháp Tụ",
+    "titles": {
+      "vi": "Pháp Tụ",
+      "pli": "Dhammasaṅgaṇī",
+      "en": "Enumeration of Phenomena"
+    },
+    "aliases": [
+      "Tập Hợp Các Pháp"
+    ],
+    "identifier": "Ds",
+    "parent": "abhidhamma-pitaka",
+    "description": "Bộ Luận mở đầu, phân loại và định nghĩa tường tận toàn bộ các trạng thái tâm (citta), tâm sở (cetasika), sắc pháp (rūpa) và Niết-bàn (Nibbāna).",
+    "tags": [
+      "luận tạng",
+      "thất bộ luận",
+      "pháp tụ",
+      "abhidhamma"
+    ],
+    "relations": [],
+    "resourceIds": [],
+    "sources": [
+      "https://suttacentral.net/ds"
+    ]
+  },
+  {
+    "id": "vibhanga",
+    "type": "text",
+    "title": "Phân Tích",
+    "titles": {
+      "vi": "Phân Tích",
+      "pli": "Vibhaṅga",
+      "en": "Book of Analysis"
+    },
+    "aliases": [
+      "Bộ Phân Tích"
+    ],
+    "identifier": "Vb",
+    "parent": "abhidhamma-pitaka",
+    "description": "Phân tích 18 đề tài căn bản (Uẩn, Xứ, Giới, Đế, Căn, Duyên khởi, Niệm xứ...) theo ba góc độ: Kinh giải, Luận giải và Vấn đáp.",
+    "tags": [
+      "luận tạng",
+      "thất bộ luận",
+      "phân tích",
+      "abhidhamma"
+    ],
+    "relations": [],
+    "resourceIds": [],
+    "sources": [
+      "https://suttacentral.net/vb"
+    ]
+  },
+  {
+    "id": "dhatukatha",
+    "type": "text",
+    "title": "Chất Ngữ",
+    "titles": {
+      "vi": "Chất Ngữ",
+      "pli": "Dhātukathā",
+      "en": "Discourse on Elements"
+    },
+    "aliases": [
+      "Bộ Giới Luận",
+      "Giới Thuyết"
+    ],
+    "identifier": "Dt",
+    "parent": "abhidhamma-pitaka",
+    "description": "Trình bày sự tương nhiếp hay bất tương nhiếp, tương ưng hay bất tương ưng của các pháp đối với Uẩn (Khandha), Xứ (Āyatana) và Giới (Dhātu).",
+    "tags": [
+      "luận tạng",
+      "thất bộ luận",
+      "chất ngữ",
+      "abhidhamma"
+    ],
+    "relations": [],
+    "resourceIds": [],
+    "sources": [
+      "https://suttacentral.net/dt"
+    ]
+  },
+  {
+    "id": "puggalapannatti",
+    "type": "text",
+    "title": "Nhân Chế Định",
+    "titles": {
+      "vi": "Nhân Chế Định",
+      "pli": "Puggalapaññatti",
+      "en": "Designation of Human Types"
+    },
+    "aliases": [
+      "Chế Định Các Hạng Người"
+    ],
+    "identifier": "Pp",
+    "parent": "abhidhamma-pitaka",
+    "description": "Phân loại các hạng người từ phàm phu đến các bậc Thánh hữu học và vô học theo số lượng tăng dần từ một pháp đến mười pháp.",
+    "tags": [
+      "luận tạng",
+      "thất bộ luận",
+      "nhân chế định",
+      "abhidhamma"
+    ],
+    "relations": [],
+    "resourceIds": [],
+    "sources": [
+      "https://suttacentral.net/pp"
+    ]
+  },
+  {
+    "id": "kathavatthu",
+    "type": "text",
+    "title": "Ngữ Tông",
+    "titles": {
+      "vi": "Ngữ Tông",
+      "pli": "Kathāvatthu",
+      "en": "Points of Controversy"
+    },
+    "aliases": [
+      "Điểm Dị Biệt",
+      "Những Điểm Tranh Luận"
+    ],
+    "identifier": "Kv",
+    "parent": "abhidhamma-pitaka",
+    "description": "Tác phẩm phản biện các luận điểm dị biệt của các bộ phái, do Đại đức Mục-kiền-liên-tử Đế-tu trước tác tại kỳ Kết tập lần thứ ba.",
+    "tags": [
+      "luận tạng",
+      "thất bộ luận",
+      "ngữ tông",
+      "abhidhamma"
+    ],
+    "relations": [],
+    "resourceIds": [],
+    "sources": [
+      "https://suttacentral.net/kv"
+    ]
+  },
+  {
+    "id": "yamaka",
+    "type": "text",
+    "title": "Song Đối",
+    "titles": {
+      "vi": "Song Đối",
+      "pli": "Yamaka",
+      "en": "Book of Pairs"
+    },
+    "aliases": [
+      "Bộ Song Đối"
+    ],
+    "identifier": "Yam",
+    "parent": "abhidhamma-pitaka",
+    "description": "Áp dụng phương pháp logic học biện chứng dưới dạng các cặp câu hỏi đảo ngược (thuận vấn và nghịch vấn) để xác định ranh giới khái niệm các pháp.",
+    "tags": [
+      "luận tạng",
+      "thất bộ luận",
+      "song đối",
+      "abhidhamma"
+    ],
+    "relations": [],
+    "resourceIds": [],
+    "sources": [
+      "https://suttacentral.net/yam"
+    ]
+  },
+  {
+    "id": "patthana",
+    "type": "text",
+    "title": "Vị Trí",
+    "titles": {
+      "vi": "Vị Trí",
+      "pli": "Paṭṭhāna",
+      "en": "Conditional Relations"
+    },
+    "aliases": [
+      "Đại Tài Luận",
+      "Bộ Duyên Hệ"
+    ],
+    "identifier": "Patthana",
+    "parent": "abhidhamma-pitaka",
+    "description": "Bộ Luận đồ sộ và thâm sâu nhất trong Luận tạng, nghiên cứu chi tiết 24 tương quan duyên hệ (Paccaya) chi phối toàn thể hiện tượng tâm và sắc.",
+    "tags": [
+      "luận tạng",
+      "thất bộ luận",
+      "vị trí",
+      "duyên hệ",
+      "abhidhamma"
+    ],
+    "relations": [],
+    "resourceIds": [],
+    "sources": [
+      "https://suttacentral.net/patthana"
+    ]
   }
 ]
