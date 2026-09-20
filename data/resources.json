@@ -183,5 +183,677 @@
     "provider": "SuttaCentral Voice",
     "url": "https://voice.suttacentral.net/",
     "description": "Thư viện âm thanh chung; tìm mã kinh trên website nguồn."
+  },
+  {
+    "id": "t-0124-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 124",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T0124"
+  },
+  {
+    "id": "t-0220-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 220",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T0220"
+  },
+  {
+    "id": "t-0289-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 289",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T0289"
+  },
+  {
+    "id": "t-0367-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 367",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T0367"
+  },
+  {
+    "id": "t-0390-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 390",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T0390"
+  },
+  {
+    "id": "t-0411-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 411",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T0411"
+  },
+  {
+    "id": "t-0436-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 436",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T0436"
+  },
+  {
+    "id": "t-0450-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 450",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T0450"
+  },
+  {
+    "id": "t-0476-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 476",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T0476"
+  },
+  {
+    "id": "t-0515-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 515",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T0515"
+  },
+  {
+    "id": "t-0592-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 592",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T0592"
+  },
+  {
+    "id": "t-0648-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 648",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T0648"
+  },
+  {
+    "id": "t-0676-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 676",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T0676"
+  },
+  {
+    "id": "t-0680-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 680",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T0680"
+  },
+  {
+    "id": "t-0689-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 689",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T0689"
+  },
+  {
+    "id": "t-0691-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 691",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T0691"
+  },
+  {
+    "id": "t-0714-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 714",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T0714"
+  },
+  {
+    "id": "t-0717-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 717",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T0717"
+  },
+  {
+    "id": "t-0765-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 765",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T0765"
+  },
+  {
+    "id": "t-0840-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 840",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T0840"
+  },
+  {
+    "id": "t-0918-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 918",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T0918"
+  },
+  {
+    "id": "t-1034-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 1034",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T1034"
+  },
+  {
+    "id": "t-1071-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 1071",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T1071"
+  },
+  {
+    "id": "t-1094-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 1094",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T1094"
+  },
+  {
+    "id": "t-1162-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 1162",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T1162"
+  },
+  {
+    "id": "t-1360-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 1360",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T1360"
+  },
+  {
+    "id": "t-1363-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 1363",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T1363"
+  },
+  {
+    "id": "t-1365-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 1365",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T1365"
+  },
+  {
+    "id": "t-1395-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 1395",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T1395"
+  },
+  {
+    "id": "t-1499-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 1499",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T1499"
+  },
+  {
+    "id": "t-1501-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 1501",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T1501"
+  },
+  {
+    "id": "t-1530-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 1530",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T1530"
+  },
+  {
+    "id": "t-1536-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 1536",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T1536"
+  },
+  {
+    "id": "t-1537-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 1537",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T1537"
+  },
+  {
+    "id": "t-1539-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 1539",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T1539"
+  },
+  {
+    "id": "t-1540-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 1540",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T1540"
+  },
+  {
+    "id": "t-1542-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 1542",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T1542"
+  },
+  {
+    "id": "t-1544-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 1544",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T1544"
+  },
+  {
+    "id": "t-1545-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 1545",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T1545"
+  },
+  {
+    "id": "t-1554-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 1554",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T1554"
+  },
+  {
+    "id": "t-1555-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 1555",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T1555"
+  },
+  {
+    "id": "t-1558-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 1558",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T1558"
+  },
+  {
+    "id": "t-1560-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 1560",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T1560"
+  },
+  {
+    "id": "t-1562-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 1562",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T1562"
+  },
+  {
+    "id": "t-1563-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 1563",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T1563"
+  },
+  {
+    "id": "t-1570-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 1570",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T1570"
+  },
+  {
+    "id": "t-1571-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 1571",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T1571"
+  },
+  {
+    "id": "t-1578-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 1578",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T1578"
+  },
+  {
+    "id": "t-1579-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 1579",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T1579"
+  },
+  {
+    "id": "t-1580-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 1580",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T1580"
+  },
+  {
+    "id": "t-1585-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 1585",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T1585"
+  },
+  {
+    "id": "t-1586-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 1586",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T1586"
+  },
+  {
+    "id": "t-1590-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 1590",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T1590"
+  },
+  {
+    "id": "t-1594-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 1594",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T1594"
+  },
+  {
+    "id": "t-1597-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 1597",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T1597"
+  },
+  {
+    "id": "t-1598-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 1598",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T1598"
+  },
+  {
+    "id": "t-1600-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 1600",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T1600"
+  },
+  {
+    "id": "t-1601-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 1601",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T1601"
+  },
+  {
+    "id": "t-1602-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 1602",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T1602"
+  },
+  {
+    "id": "t-1603-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 1603",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T1603"
+  },
+  {
+    "id": "t-1605-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 1605",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T1605"
+  },
+  {
+    "id": "t-1606-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 1606",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T1606"
+  },
+  {
+    "id": "t-1609-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 1609",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T1609"
+  },
+  {
+    "id": "t-1612-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 1612",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T1612"
+  },
+  {
+    "id": "t-1614-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 1614",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T1614"
+  },
+  {
+    "id": "t-1615-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 1615",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T1615"
+  },
+  {
+    "id": "t-1624-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 1624",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T1624"
+  },
+  {
+    "id": "t-1628-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 1628",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T1628"
+  },
+  {
+    "id": "t-1630-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 1630",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T1630"
+  },
+  {
+    "id": "t-2030-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 2030",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T2030"
+  },
+  {
+    "id": "t-2031-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 2031",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T2031"
+  },
+  {
+    "id": "t-2087-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 2087",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T2087"
+  },
+  {
+    "id": "t-2138-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 2138",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T2138"
+  },
+  {
+    "id": "t-0235-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 235",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T0235"
+  },
+  {
+    "id": "t-0262-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 262",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T0262"
+  },
+  {
+    "id": "t-0366-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 366",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T0366"
+  },
+  {
+    "id": "t-0475-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 475",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T0475"
+  },
+  {
+    "id": "t-1509-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 1509",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T1509"
+  },
+  {
+    "id": "t-1564-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 1564",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T1564"
+  },
+  {
+    "id": "t-1568-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 1568",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T1568"
+  },
+  {
+    "id": "t-1569-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Hán văn — T 1569",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T1569"
+  },
+  {
+    "id": "t-0026-vi",
+    "type": "translation",
+    "language": "vi",
+    "title": "Trung A-hàm — Việt dịch và hiệu chú Thích Tuệ Sỹ",
+    "provider": "BuddhaSasana",
+    "url": "https://www.budsas.org/uni/u-kinh-ahamtrung/trungaham_idx.htm"
+  },
+  {
+    "id": "t-0279-vi",
+    "type": "translation",
+    "language": "vi",
+    "title": "Kinh Đại Phương Quảng Phật Hoa Nghiêm — Thích Trí Tịnh",
+    "provider": "Thư Viện Hoa Sen",
+    "url": "https://thuvienhoasen.org/a513/kinh-hoa-nghiem"
+  },
+  {
+    "id": "t-0001-vi",
+    "type": "translation",
+    "language": "vi",
+    "title": "Kinh Trường A-hàm — Thích Tuệ Sỹ",
+    "provider": "Đại Tạng Kinh Việt Nam",
+    "url": "https://www.daitangkinhvietnam.org/node/8697"
   }
 ]

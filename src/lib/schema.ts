@@ -11,17 +11,43 @@ export const EntitySchema = z.object({
   id, type: z.enum(['tradition', 'canon', 'pitaka', 'collection', 'text', 'section', 'concept', 'person', 'place']),
   title: nonempty, titles: z.record(nonempty, nonempty), aliases: z.array(nonempty),
   identifier: nonempty.optional(), parent: id.nullable(), description: nonempty,
+  volumes: z.number().int().positive().optional(),
   tags: z.array(nonempty), resourceIds: z.array(id), sources: z.array(url).min(1),
   relations: z.array(z.object({type: z.enum(['related', 'parallel', 'commentary', 'translation', 'references']), target: id, note: nonempty})),
 }).strict();
 export type Entity = z.infer<typeof EntitySchema>;
 export type Resource = z.infer<typeof ResourceSchema>;
 
-export function validateData(rawEntities: unknown, rawResources: unknown) {
+export const TranslatorSchema = z.object({
+  id, name: nonempty, originalName: nonempty, aliases: z.array(nonempty),
+  region: z.enum(['Việt Nam', 'Hán truyền']), period: nonempty,
+  description: nonempty, historicalSummary: nonempty.optional(), scopeNote: nonempty,
+  sources: z.array(url).min(1),
+  works: z.array(z.object({
+    entityId: id, role: z.enum(['translation', 'authorship']), group: nonempty,
+    language: nonempty, sources: z.array(url).min(1), note: nonempty.optional(),
+  }).strict()).min(1),
+}).strict();
+export type Translator = z.infer<typeof TranslatorSchema>;
+
+export function validateData(rawEntities: unknown, rawResources: unknown, rawTranslators: unknown = []) {
   const entities = z.array(EntitySchema).parse(rawEntities);
   const resources = z.array(ResourceSchema).parse(rawResources);
   const byId = new Map(entities.map(entity => [entity.id, entity]));
   const resourceIds = new Set(resources.map(resource => resource.id));
+  const translators = z.array(TranslatorSchema).parse(rawTranslators);
+  if (new Set(translators.map(t => t.id)).size !== translators.length) throw new Error('Duplicate translator ID');
+  for (const translator of translators) {
+    const credits = new Set<string>();
+    for (const work of translator.works) {
+      const entity = byId.get(work.entityId);
+      if (!entity) throw new Error(`Missing translated work: ${work.entityId}`);
+      if (!['text', 'collection', 'section'].includes(entity.type)) throw new Error(`Invalid translated work type: ${work.entityId}`);
+      const key = `${work.entityId}:${work.role}:${work.language}`;
+      if (credits.has(key)) throw new Error(`Duplicate work credit: ${translator.id}/${key}`);
+      credits.add(key);
+    }
+  }
   if (byId.size !== entities.length) throw new Error('Duplicate entity ID');
   if (resourceIds.size !== resources.length) throw new Error('Duplicate resource ID');
   for (const entity of entities) {
@@ -42,5 +68,5 @@ export function validateData(rawEntities: unknown, rawResources: unknown) {
       parent = ancestor.parent;
     }
   }
-  return { entities, resources };
+  return { entities, resources, translators };
 }

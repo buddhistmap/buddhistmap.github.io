@@ -1,0 +1,22 @@
+import test from 'node:test';
+import assert from 'node:assert/strict';
+import entityData from '../data/entities.json';
+import resourceData from '../data/resources.json';
+import translatorData from '../data/translators.json';
+import {validateData} from '../src/lib/schema';
+import {creditsFor,translatorVisibleIds,searchEntries,entityById,ancestors} from '../src/lib/data';
+import {search} from '../src/lib/search';
+
+test('translator dataset validates with all referenced works',()=>assert.doesNotThrow(()=>validateData(entityData,resourceData,translatorData)));
+test('missing translated work fails validation',()=>{const copy=structuredClone(translatorData);copy[0].works[0].entityId='missing';assert.throws(()=>validateData(entityData,resourceData,copy),/Missing translated work/)});
+test('duplicate translator IDs fail validation',()=>assert.throws(()=>validateData(entityData,resourceData,[...translatorData,translatorData[0]]),/Duplicate translator/));
+test('duplicate credit fails validation',()=>{const copy=structuredClone(translatorData);copy[0].works.push(copy[0].works[0]);assert.throws(()=>validateData(entityData,resourceData,copy),/Duplicate work credit/)});
+test('a tradition cannot be a translated work',()=>{const copy=structuredClone(translatorData);copy[0].works[0].entityId='theravada';assert.throws(()=>validateData(entityData,resourceData,copy),/Invalid translated work type/)});
+test('credit requires a safe evidence URL',()=>{const copy=structuredClone(translatorData);copy[0].works[0].sources=['javascript:alert(1)'];assert.throws(()=>validateData(entityData,resourceData,copy))});
+test('same work can have different translators and languages',()=>{const credits=creditsFor('t-0262');assert.ok(credits.some(c=>c.translator.id==='cuu-ma-la-thap'&&c.work.language==='zh'));assert.ok(credits.some(c=>c.translator.id==='thich-tri-tinh'&&c.work.language==='vi'))});
+test('travel record is not credited as translation',()=>assert.equal(creditsFor('t-2087')[0].work.role,'authorship'));
+test('Diamond section belongs to the Great Prajnaparamita',()=>assert.equal(entityById.get('t-0220-09')!.parent,'t-0220'));
+test('Bodhisattva collection is scoped to Ratnakuta assembly 12',()=>{assert.equal(entityById.get('t-0310-12')!.parent,'t-0310');assert.ok(!creditsFor('t-0310').some(c=>c.translator.id==='huyen-trang'))});
+test('map filter retains ancestors and excludes other translators works',()=>{const visible=new Set(translatorVisibleIds('thich-minh-chau'));assert.ok(visible.has('mn-010'));assert.ok(!visible.has('t-0251'));for(const id of visible)for(const a of ancestors(entityById.get(id)!))assert.ok(visible.has(a.id))});
+test('unknown translator map filter has no matches',()=>assert.deepEqual(translatorVisibleIds('unknown'),[]));
+test('translator names and aliases are searchable without diacritics',()=>{assert.equal(search(searchEntries,'huyen trang')[0].id,'huyen-trang');assert.ok(search(searchEntries,'Kumarajiva').some(e=>e.id==='cuu-ma-la-thap'));assert.ok(search(searchEntries,'玄奘').some(e=>e.id==='huyen-trang'))});

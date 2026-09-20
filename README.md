@@ -24,6 +24,7 @@ npm run preview
 
 - `data/entities.json`: truyền thống, kinh điển, tạng, tuyển tập, văn bản. Mỗi mục có ID ổn định, tên đa ngôn ngữ, parent, nguồn metadata và quan hệ có mô tả.
 - `data/resources.json`: nguồn đọc / nghe / xem / tham khảo, liên kết độc lập với UI.
+- `data/translators.json`: dịch giả, tác phẩm, ngôn ngữ dịch, vai trò và nguồn đối chiếu. Xem [quy ước biên tập](docs/translators.md).
 - `src/lib/schema.ts`: schema và validation được chạy trong quá trình build. Chặn ID trùng / sai, trường thiếu, parent và quan hệ bị mất, chu trình phân cấp, resource bị mất và URL không phải HTTP(S).
 - `src/lib/data.ts`: cây điều hướng, breadcrumb, route và search index từ cùng một nguồn dữ liệu.
 

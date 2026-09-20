@@ -516,7 +516,8 @@
     "title": "Bát-nhã Tâm Kinh",
     "titles": {
       "vi": "Bát-nhã Tâm Kinh",
-      "original": "般若波羅蜜多心經"
+      "original": "般若波羅蜜多心經",
+      "zh": "般若波羅蜜多心經"
     },
     "aliases": [
       "Heart Sutra",
@@ -531,8 +532,2108 @@
       "t-0251-zh"
     ],
     "sources": [
-      "https://cbetaonline.dila.edu.tw/zh/T0251"
+      "https://cbetaonline.dila.edu.tw/zh/T0251",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
     ],
-    "identifier": "T 251"
+    "identifier": "T 251",
+    "volumes": 1
+  },
+  {
+    "id": "t-0124",
+    "type": "text",
+    "title": "Kinh Duyên Khởi",
+    "titles": {
+      "vi": "Kinh Duyên Khởi",
+      "original": "緣起經",
+      "zh": "緣起經"
+    },
+    "aliases": [],
+    "identifier": "T 124",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 124: Kinh Duyên Khởi. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-0124-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T0124",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 1
+  },
+  {
+    "id": "t-0220",
+    "type": "text",
+    "title": "Đại Bát-nhã Ba-la-mật-đa Kinh",
+    "titles": {
+      "vi": "Đại Bát-nhã Ba-la-mật-đa Kinh",
+      "original": "大般若波羅蜜多經",
+      "zh": "大般若波羅蜜多經"
+    },
+    "aliases": [],
+    "identifier": "T 220",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 220: Đại Bát-nhã Ba-la-mật-đa Kinh. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-0220-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T0220",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 600
+  },
+  {
+    "id": "t-0289",
+    "type": "text",
+    "title": "Kinh Hiển Vô Biên Phật Độ Công Đức",
+    "titles": {
+      "vi": "Kinh Hiển Vô Biên Phật Độ Công Đức",
+      "original": "顯無邊佛土功德經",
+      "zh": "顯無邊佛土功德經"
+    },
+    "aliases": [],
+    "identifier": "T 289",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 289: Kinh Hiển Vô Biên Phật Độ Công Đức. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-0289-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T0289",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 1
+  },
+  {
+    "id": "t-0367",
+    "type": "text",
+    "title": "Kinh Xưng Tán Tịnh Độ Phật Nhiếp Thọ",
+    "titles": {
+      "vi": "Kinh Xưng Tán Tịnh Độ Phật Nhiếp Thọ",
+      "original": "稱讚淨土佛攝受經",
+      "zh": "稱讚淨土佛攝受經"
+    },
+    "aliases": [],
+    "identifier": "T 367",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 367: Kinh Xưng Tán Tịnh Độ Phật Nhiếp Thọ. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [
+      {
+        "type": "related",
+        "target": "t-0366",
+        "note": "Hai bản Hán dịch kinh A-di-đà: Cưu Ma La Thập và Huyền Trang."
+      }
+    ],
+    "resourceIds": [
+      "t-0367-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T0367",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 1
+  },
+  {
+    "id": "t-0390",
+    "type": "text",
+    "title": "Kinh Phật Lâm Niết-bàn Ký Pháp Trụ",
+    "titles": {
+      "vi": "Kinh Phật Lâm Niết-bàn Ký Pháp Trụ",
+      "original": "佛臨涅槃記法住經",
+      "zh": "佛臨涅槃記法住經"
+    },
+    "aliases": [],
+    "identifier": "T 390",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 390: Kinh Phật Lâm Niết-bàn Ký Pháp Trụ. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-0390-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T0390",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 1
+  },
+  {
+    "id": "t-0411",
+    "type": "text",
+    "title": "Kinh Đại Thừa Đại Tập Địa Tạng Thập Luân",
+    "titles": {
+      "vi": "Kinh Đại Thừa Đại Tập Địa Tạng Thập Luân",
+      "original": "大乘大集地藏十輪經",
+      "zh": "大乘大集地藏十輪經"
+    },
+    "aliases": [],
+    "identifier": "T 411",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 411: Kinh Đại Thừa Đại Tập Địa Tạng Thập Luân. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-0411-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T0411",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 10
+  },
+  {
+    "id": "t-0436",
+    "type": "text",
+    "title": "Kinh Thọ Trì Thất Phật Danh Hiệu Sở Sinh Công Đức",
+    "titles": {
+      "vi": "Kinh Thọ Trì Thất Phật Danh Hiệu Sở Sinh Công Đức",
+      "original": "受持七佛名號所生功德經",
+      "zh": "受持七佛名號所生功德經"
+    },
+    "aliases": [],
+    "identifier": "T 436",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 436: Kinh Thọ Trì Thất Phật Danh Hiệu Sở Sinh Công Đức. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-0436-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T0436",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 1
+  },
+  {
+    "id": "t-0450",
+    "type": "text",
+    "title": "Kinh Dược Sư Lưu Ly Quang Như Lai Bổn Nguyện Công Đức",
+    "titles": {
+      "vi": "Kinh Dược Sư Lưu Ly Quang Như Lai Bổn Nguyện Công Đức",
+      "original": "藥師琉璃光如來本願功德經",
+      "zh": "藥師琉璃光如來本願功德經"
+    },
+    "aliases": [],
+    "identifier": "T 450",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 450: Kinh Dược Sư Lưu Ly Quang Như Lai Bổn Nguyện Công Đức. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-0450-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T0450",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 1
+  },
+  {
+    "id": "t-0476",
+    "type": "text",
+    "title": "Kinh Thuyết Vô Cấu Xứng",
+    "titles": {
+      "vi": "Kinh Thuyết Vô Cấu Xứng",
+      "original": "說無垢稱經",
+      "zh": "說無垢稱經"
+    },
+    "aliases": [],
+    "identifier": "T 476",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 476: Kinh Thuyết Vô Cấu Xứng. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [
+      {
+        "type": "related",
+        "target": "t-0475",
+        "note": "Hai bản Hán dịch Duy-ma-cật: Cưu Ma La Thập và Huyền Trang."
+      }
+    ],
+    "resourceIds": [
+      "t-0476-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T0476",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 6
+  },
+  {
+    "id": "t-0515",
+    "type": "text",
+    "title": "Kinh Như Lai Thị Giáo Thắng Quân Vương",
+    "titles": {
+      "vi": "Kinh Như Lai Thị Giáo Thắng Quân Vương",
+      "original": "如來示教勝軍王經",
+      "zh": "如來示教勝軍王經"
+    },
+    "aliases": [],
+    "identifier": "T 515",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 515: Kinh Như Lai Thị Giáo Thắng Quân Vương. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-0515-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T0515",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 1
+  },
+  {
+    "id": "t-0592",
+    "type": "text",
+    "title": "Kinh Thiên Thỉnh Vấn",
+    "titles": {
+      "vi": "Kinh Thiên Thỉnh Vấn",
+      "original": "天請問經",
+      "zh": "天請問經"
+    },
+    "aliases": [],
+    "identifier": "T 592",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 592: Kinh Thiên Thỉnh Vấn. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-0592-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T0592",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 1
+  },
+  {
+    "id": "t-0648",
+    "type": "text",
+    "title": "Kinh Tịch Chiếu Thần Biến Tam-ma-địa",
+    "titles": {
+      "vi": "Kinh Tịch Chiếu Thần Biến Tam-ma-địa",
+      "original": "寂照神變三摩地經",
+      "zh": "寂照神變三摩地經"
+    },
+    "aliases": [],
+    "identifier": "T 648",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 648: Kinh Tịch Chiếu Thần Biến Tam-ma-địa. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-0648-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T0648",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 1
+  },
+  {
+    "id": "t-0676",
+    "type": "text",
+    "title": "Kinh Giải Thâm Mật",
+    "titles": {
+      "vi": "Kinh Giải Thâm Mật",
+      "original": "解深密經",
+      "zh": "解深密經"
+    },
+    "aliases": [],
+    "identifier": "T 676",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 676: Kinh Giải Thâm Mật. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-0676-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T0676",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 5
+  },
+  {
+    "id": "t-0680",
+    "type": "text",
+    "title": "Kinh Phật Địa",
+    "titles": {
+      "vi": "Kinh Phật Địa",
+      "original": "佛說佛地經",
+      "zh": "佛說佛地經"
+    },
+    "aliases": [],
+    "identifier": "T 680",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 680: Kinh Phật Địa. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-0680-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T0680",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 1
+  },
+  {
+    "id": "t-0689",
+    "type": "text",
+    "title": "Kinh Thậm Hy Hữu",
+    "titles": {
+      "vi": "Kinh Thậm Hy Hữu",
+      "original": "甚希有經",
+      "zh": "甚希有經"
+    },
+    "aliases": [],
+    "identifier": "T 689",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 689: Kinh Thậm Hy Hữu. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-0689-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T0689",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 1
+  },
+  {
+    "id": "t-0691",
+    "type": "text",
+    "title": "Kinh Tối Vô Tỷ",
+    "titles": {
+      "vi": "Kinh Tối Vô Tỷ",
+      "original": "最無比經",
+      "zh": "最無比經"
+    },
+    "aliases": [],
+    "identifier": "T 691",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 691: Kinh Tối Vô Tỷ. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-0691-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T0691",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 1
+  },
+  {
+    "id": "t-0714",
+    "type": "text",
+    "title": "Kinh Duyên Khởi Thánh Đạo",
+    "titles": {
+      "vi": "Kinh Duyên Khởi Thánh Đạo",
+      "original": "緣起聖道經",
+      "zh": "緣起聖道經"
+    },
+    "aliases": [],
+    "identifier": "T 714",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 714: Kinh Duyên Khởi Thánh Đạo. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-0714-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T0714",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 1
+  },
+  {
+    "id": "t-0717",
+    "type": "text",
+    "title": "Kinh Phân Biệt Duyên Khởi Sơ Thắng Pháp Môn",
+    "titles": {
+      "vi": "Kinh Phân Biệt Duyên Khởi Sơ Thắng Pháp Môn",
+      "original": "分別緣起初勝法門經",
+      "zh": "分別緣起初勝法門經"
+    },
+    "aliases": [],
+    "identifier": "T 717",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 717: Kinh Phân Biệt Duyên Khởi Sơ Thắng Pháp Môn. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-0717-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T0717",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 2
+  },
+  {
+    "id": "t-0765",
+    "type": "text",
+    "title": "Kinh Bổn Sự",
+    "titles": {
+      "vi": "Kinh Bổn Sự",
+      "original": "本事經",
+      "zh": "本事經"
+    },
+    "aliases": [],
+    "identifier": "T 765",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 765: Kinh Bổn Sự. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-0765-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T0765",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 7
+  },
+  {
+    "id": "t-0840",
+    "type": "text",
+    "title": "Kinh Xưng Tán Đại Thừa Công Đức",
+    "titles": {
+      "vi": "Kinh Xưng Tán Đại Thừa Công Đức",
+      "original": "稱讚大乘功德經",
+      "zh": "稱讚大乘功德經"
+    },
+    "aliases": [],
+    "identifier": "T 840",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 840: Kinh Xưng Tán Đại Thừa Công Đức. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-0840-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T0840",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 1
+  },
+  {
+    "id": "t-0918",
+    "type": "text",
+    "title": "Kinh Chư Phật Tâm Đà-la-ni",
+    "titles": {
+      "vi": "Kinh Chư Phật Tâm Đà-la-ni",
+      "original": "諸佛心陀羅尼經",
+      "zh": "諸佛心陀羅尼經"
+    },
+    "aliases": [],
+    "identifier": "T 918",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 918: Kinh Chư Phật Tâm Đà-la-ni. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-0918-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T0918",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 1
+  },
+  {
+    "id": "t-1034",
+    "type": "text",
+    "title": "Chú Ngũ Thủ",
+    "titles": {
+      "vi": "Chú Ngũ Thủ",
+      "original": "呪五首",
+      "zh": "呪五首"
+    },
+    "aliases": [],
+    "identifier": "T 1034",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 1034: Chú Ngũ Thủ. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-1034-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T1034",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 1
+  },
+  {
+    "id": "t-1071",
+    "type": "text",
+    "title": "Kinh Thập Nhất Diện Thần Chú Tâm",
+    "titles": {
+      "vi": "Kinh Thập Nhất Diện Thần Chú Tâm",
+      "original": "十一面神呪心經",
+      "zh": "十一面神呪心經"
+    },
+    "aliases": [],
+    "identifier": "T 1071",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 1071: Kinh Thập Nhất Diện Thần Chú Tâm. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-1071-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T1071",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 1
+  },
+  {
+    "id": "t-1094",
+    "type": "text",
+    "title": "Kinh Bất Không Quyến Sách Thần Chú Tâm",
+    "titles": {
+      "vi": "Kinh Bất Không Quyến Sách Thần Chú Tâm",
+      "original": "不空羂索神呪心經",
+      "zh": "不空羂索神呪心經"
+    },
+    "aliases": [],
+    "identifier": "T 1094",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 1094: Kinh Bất Không Quyến Sách Thần Chú Tâm. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-1094-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T1094",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 1
+  },
+  {
+    "id": "t-1162",
+    "type": "text",
+    "title": "Kinh Trì Thế Đà-la-ni",
+    "titles": {
+      "vi": "Kinh Trì Thế Đà-la-ni",
+      "original": "持世陀羅尼經",
+      "zh": "持世陀羅尼經"
+    },
+    "aliases": [],
+    "identifier": "T 1162",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 1162: Kinh Trì Thế Đà-la-ni. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-1162-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T1162",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 1
+  },
+  {
+    "id": "t-1360",
+    "type": "text",
+    "title": "Kinh Lục Môn Đà-la-ni",
+    "titles": {
+      "vi": "Kinh Lục Môn Đà-la-ni",
+      "original": "六門陀羅尼經",
+      "zh": "六門陀羅尼經"
+    },
+    "aliases": [],
+    "identifier": "T 1360",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 1360: Kinh Lục Môn Đà-la-ni. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-1360-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T1360",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 1
+  },
+  {
+    "id": "t-1363",
+    "type": "text",
+    "title": "Kinh Thắng Tràng Tý Ấn Đà-la-ni",
+    "titles": {
+      "vi": "Kinh Thắng Tràng Tý Ấn Đà-la-ni",
+      "original": "勝幢臂印陀羅尼經",
+      "zh": "勝幢臂印陀羅尼經"
+    },
+    "aliases": [],
+    "identifier": "T 1363",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 1363: Kinh Thắng Tràng Tý Ấn Đà-la-ni. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-1363-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T1363",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 1
+  },
+  {
+    "id": "t-1365",
+    "type": "text",
+    "title": "Kinh Bát Danh Phổ Mật Đà-la-ni",
+    "titles": {
+      "vi": "Kinh Bát Danh Phổ Mật Đà-la-ni",
+      "original": "八名普密陀羅尼經",
+      "zh": "八名普密陀羅尼經"
+    },
+    "aliases": [],
+    "identifier": "T 1365",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 1365: Kinh Bát Danh Phổ Mật Đà-la-ni. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-1365-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T1365",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 1
+  },
+  {
+    "id": "t-1395",
+    "type": "text",
+    "title": "Kinh Bạt Tế Khổ Nạn Đà-la-ni",
+    "titles": {
+      "vi": "Kinh Bạt Tế Khổ Nạn Đà-la-ni",
+      "original": "拔濟苦難陀羅尼經",
+      "zh": "拔濟苦難陀羅尼經"
+    },
+    "aliases": [],
+    "identifier": "T 1395",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 1395: Kinh Bạt Tế Khổ Nạn Đà-la-ni. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-1395-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T1395",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 1
+  },
+  {
+    "id": "t-1499",
+    "type": "text",
+    "title": "Bồ Tát Giới Yết-ma Văn",
+    "titles": {
+      "vi": "Bồ Tát Giới Yết-ma Văn",
+      "original": "菩薩戒羯磨文",
+      "zh": "菩薩戒羯磨文"
+    },
+    "aliases": [],
+    "identifier": "T 1499",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 1499: Bồ Tát Giới Yết-ma Văn. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-1499-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T1499",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 1
+  },
+  {
+    "id": "t-1501",
+    "type": "text",
+    "title": "Bồ Tát Giới Bổn",
+    "titles": {
+      "vi": "Bồ Tát Giới Bổn",
+      "original": "菩薩戒本",
+      "zh": "菩薩戒本"
+    },
+    "aliases": [],
+    "identifier": "T 1501",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 1501: Bồ Tát Giới Bổn. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-1501-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T1501",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 1
+  },
+  {
+    "id": "t-1530",
+    "type": "text",
+    "title": "Phật Địa Kinh Luận",
+    "titles": {
+      "vi": "Phật Địa Kinh Luận",
+      "original": "佛地經論",
+      "zh": "佛地經論"
+    },
+    "aliases": [],
+    "identifier": "T 1530",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 1530: Phật Địa Kinh Luận. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-1530-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T1530",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 7
+  },
+  {
+    "id": "t-1536",
+    "type": "text",
+    "title": "A-tì-đạt-ma Tập Dị Môn Túc Luận",
+    "titles": {
+      "vi": "A-tì-đạt-ma Tập Dị Môn Túc Luận",
+      "original": "阿毘達磨集異門足論",
+      "zh": "阿毘達磨集異門足論"
+    },
+    "aliases": [],
+    "identifier": "T 1536",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 1536: A-tì-đạt-ma Tập Dị Môn Túc Luận. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-1536-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T1536",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 20
+  },
+  {
+    "id": "t-1537",
+    "type": "text",
+    "title": "A-tì-đạt-ma Pháp Uẩn Túc Luận",
+    "titles": {
+      "vi": "A-tì-đạt-ma Pháp Uẩn Túc Luận",
+      "original": "阿毘達磨法蘊足論",
+      "zh": "阿毘達磨法蘊足論"
+    },
+    "aliases": [],
+    "identifier": "T 1537",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 1537: A-tì-đạt-ma Pháp Uẩn Túc Luận. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-1537-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T1537",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 12
+  },
+  {
+    "id": "t-1539",
+    "type": "text",
+    "title": "A-tì-đạt-ma Thức Thân Túc Luận",
+    "titles": {
+      "vi": "A-tì-đạt-ma Thức Thân Túc Luận",
+      "original": "阿毘達磨識身足論",
+      "zh": "阿毘達磨識身足論"
+    },
+    "aliases": [],
+    "identifier": "T 1539",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 1539: A-tì-đạt-ma Thức Thân Túc Luận. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-1539-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T1539",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 16
+  },
+  {
+    "id": "t-1540",
+    "type": "text",
+    "title": "A-tì-đạt-ma Giới Thân Túc Luận",
+    "titles": {
+      "vi": "A-tì-đạt-ma Giới Thân Túc Luận",
+      "original": "阿毘達磨界身足論",
+      "zh": "阿毘達磨界身足論"
+    },
+    "aliases": [],
+    "identifier": "T 1540",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 1540: A-tì-đạt-ma Giới Thân Túc Luận. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-1540-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T1540",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 3
+  },
+  {
+    "id": "t-1542",
+    "type": "text",
+    "title": "A-tì-đạt-ma Phẩm Loại Túc Luận",
+    "titles": {
+      "vi": "A-tì-đạt-ma Phẩm Loại Túc Luận",
+      "original": "阿毘達磨品類足論",
+      "zh": "阿毘達磨品類足論"
+    },
+    "aliases": [],
+    "identifier": "T 1542",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 1542: A-tì-đạt-ma Phẩm Loại Túc Luận. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-1542-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T1542",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 18
+  },
+  {
+    "id": "t-1544",
+    "type": "text",
+    "title": "A-tì-đạt-ma Phát Trí Luận",
+    "titles": {
+      "vi": "A-tì-đạt-ma Phát Trí Luận",
+      "original": "阿毘達磨發智論",
+      "zh": "阿毘達磨發智論"
+    },
+    "aliases": [],
+    "identifier": "T 1544",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 1544: A-tì-đạt-ma Phát Trí Luận. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-1544-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T1544",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 20
+  },
+  {
+    "id": "t-1545",
+    "type": "text",
+    "title": "A-tì-đạt-ma Đại Tì-bà-sa Luận",
+    "titles": {
+      "vi": "A-tì-đạt-ma Đại Tì-bà-sa Luận",
+      "original": "阿毘達磨大毘婆沙論",
+      "zh": "阿毘達磨大毘婆沙論"
+    },
+    "aliases": [],
+    "identifier": "T 1545",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 1545: A-tì-đạt-ma Đại Tì-bà-sa Luận. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-1545-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T1545",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 200
+  },
+  {
+    "id": "t-1554",
+    "type": "text",
+    "title": "Nhập A-tì-đạt-ma Luận",
+    "titles": {
+      "vi": "Nhập A-tì-đạt-ma Luận",
+      "original": "入阿毘達磨論",
+      "zh": "入阿毘達磨論"
+    },
+    "aliases": [],
+    "identifier": "T 1554",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 1554: Nhập A-tì-đạt-ma Luận. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-1554-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T1554",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 2
+  },
+  {
+    "id": "t-1555",
+    "type": "text",
+    "title": "Ngũ Sự Tì-bà-sa Luận",
+    "titles": {
+      "vi": "Ngũ Sự Tì-bà-sa Luận",
+      "original": "五事毘婆沙論",
+      "zh": "五事毘婆沙論"
+    },
+    "aliases": [],
+    "identifier": "T 1555",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 1555: Ngũ Sự Tì-bà-sa Luận. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-1555-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T1555",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 2
+  },
+  {
+    "id": "t-1558",
+    "type": "text",
+    "title": "A-tì-đạt-ma Câu Xá Luận",
+    "titles": {
+      "vi": "A-tì-đạt-ma Câu Xá Luận",
+      "original": "阿毘達磨俱舍論",
+      "zh": "阿毘達磨俱舍論"
+    },
+    "aliases": [],
+    "identifier": "T 1558",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 1558: A-tì-đạt-ma Câu Xá Luận. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-1558-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T1558",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 30
+  },
+  {
+    "id": "t-1560",
+    "type": "text",
+    "title": "A-tì-đạt-ma Câu Xá Luận Bổn Tụng",
+    "titles": {
+      "vi": "A-tì-đạt-ma Câu Xá Luận Bổn Tụng",
+      "original": "阿毘達磨俱舍論本頌",
+      "zh": "阿毘達磨俱舍論本頌"
+    },
+    "aliases": [],
+    "identifier": "T 1560",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 1560: A-tì-đạt-ma Câu Xá Luận Bổn Tụng. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-1560-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T1560",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 1
+  },
+  {
+    "id": "t-1562",
+    "type": "text",
+    "title": "A-tì-đạt-ma Thuận Chánh Lý Luận",
+    "titles": {
+      "vi": "A-tì-đạt-ma Thuận Chánh Lý Luận",
+      "original": "阿毘達磨順正理論",
+      "zh": "阿毘達磨順正理論"
+    },
+    "aliases": [],
+    "identifier": "T 1562",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 1562: A-tì-đạt-ma Thuận Chánh Lý Luận. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-1562-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T1562",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 80
+  },
+  {
+    "id": "t-1563",
+    "type": "text",
+    "title": "A-tì-đạt-ma Tạng Hiển Tông Luận",
+    "titles": {
+      "vi": "A-tì-đạt-ma Tạng Hiển Tông Luận",
+      "original": "阿毘達磨藏顯宗論",
+      "zh": "阿毘達磨藏顯宗論"
+    },
+    "aliases": [],
+    "identifier": "T 1563",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 1563: A-tì-đạt-ma Tạng Hiển Tông Luận. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-1563-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T1563",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 40
+  },
+  {
+    "id": "t-1570",
+    "type": "text",
+    "title": "Quảng Bách Luận Bổn",
+    "titles": {
+      "vi": "Quảng Bách Luận Bổn",
+      "original": "廣百論本",
+      "zh": "廣百論本"
+    },
+    "aliases": [],
+    "identifier": "T 1570",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 1570: Quảng Bách Luận Bổn. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-1570-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T1570",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 1
+  },
+  {
+    "id": "t-1571",
+    "type": "text",
+    "title": "Đại Thừa Quảng Bách Luận Thích Luận",
+    "titles": {
+      "vi": "Đại Thừa Quảng Bách Luận Thích Luận",
+      "original": "大乘廣百論釋論",
+      "zh": "大乘廣百論釋論"
+    },
+    "aliases": [],
+    "identifier": "T 1571",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 1571: Đại Thừa Quảng Bách Luận Thích Luận. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-1571-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T1571",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 10
+  },
+  {
+    "id": "t-1578",
+    "type": "text",
+    "title": "Đại Thừa Chưởng Trân Luận",
+    "titles": {
+      "vi": "Đại Thừa Chưởng Trân Luận",
+      "original": "大乘掌珍論",
+      "zh": "大乘掌珍論"
+    },
+    "aliases": [],
+    "identifier": "T 1578",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 1578: Đại Thừa Chưởng Trân Luận. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-1578-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T1578",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 2
+  },
+  {
+    "id": "t-1579",
+    "type": "text",
+    "title": "Du-già Sư Địa Luận",
+    "titles": {
+      "vi": "Du-già Sư Địa Luận",
+      "original": "瑜伽師地論",
+      "zh": "瑜伽師地論"
+    },
+    "aliases": [],
+    "identifier": "T 1579",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 1579: Du-già Sư Địa Luận. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-1579-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T1579",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 100
+  },
+  {
+    "id": "t-1580",
+    "type": "text",
+    "title": "Du-già Sư Địa Luận Thích",
+    "titles": {
+      "vi": "Du-già Sư Địa Luận Thích",
+      "original": "瑜伽師地論釋",
+      "zh": "瑜伽師地論釋"
+    },
+    "aliases": [],
+    "identifier": "T 1580",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 1580: Du-già Sư Địa Luận Thích. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-1580-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T1580",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 1
+  },
+  {
+    "id": "t-1585",
+    "type": "text",
+    "title": "Thành Duy Thức Luận",
+    "titles": {
+      "vi": "Thành Duy Thức Luận",
+      "original": "成唯識論",
+      "zh": "成唯識論"
+    },
+    "aliases": [],
+    "identifier": "T 1585",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 1585: Thành Duy Thức Luận. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-1585-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T1585",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 10
+  },
+  {
+    "id": "t-1586",
+    "type": "text",
+    "title": "Duy Thức Tam Thập Luận Tụng",
+    "titles": {
+      "vi": "Duy Thức Tam Thập Luận Tụng",
+      "original": "唯識三十論頌",
+      "zh": "唯識三十論頌"
+    },
+    "aliases": [],
+    "identifier": "T 1586",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 1586: Duy Thức Tam Thập Luận Tụng. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-1586-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T1586",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 1
+  },
+  {
+    "id": "t-1590",
+    "type": "text",
+    "title": "Duy Thức Nhị Thập Luận",
+    "titles": {
+      "vi": "Duy Thức Nhị Thập Luận",
+      "original": "唯識二十論",
+      "zh": "唯識二十論"
+    },
+    "aliases": [],
+    "identifier": "T 1590",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 1590: Duy Thức Nhị Thập Luận. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-1590-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T1590",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 1
+  },
+  {
+    "id": "t-1594",
+    "type": "text",
+    "title": "Nhiếp Đại Thừa Luận Bổn",
+    "titles": {
+      "vi": "Nhiếp Đại Thừa Luận Bổn",
+      "original": "攝大乘論本",
+      "zh": "攝大乘論本"
+    },
+    "aliases": [],
+    "identifier": "T 1594",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 1594: Nhiếp Đại Thừa Luận Bổn. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-1594-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T1594",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 3
+  },
+  {
+    "id": "t-1597",
+    "type": "text",
+    "title": "Nhiếp Đại Thừa Luận Thích — Thế Thân",
+    "titles": {
+      "vi": "Nhiếp Đại Thừa Luận Thích — Thế Thân",
+      "original": "攝大乘論釋",
+      "zh": "攝大乘論釋"
+    },
+    "aliases": [],
+    "identifier": "T 1597",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 1597: Nhiếp Đại Thừa Luận Thích — Thế Thân. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-1597-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T1597",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 10
+  },
+  {
+    "id": "t-1598",
+    "type": "text",
+    "title": "Nhiếp Đại Thừa Luận Thích — Vô Tính",
+    "titles": {
+      "vi": "Nhiếp Đại Thừa Luận Thích — Vô Tính",
+      "original": "攝大乘論釋",
+      "zh": "攝大乘論釋"
+    },
+    "aliases": [],
+    "identifier": "T 1598",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 1598: Nhiếp Đại Thừa Luận Thích — Vô Tính. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-1598-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T1598",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 10
+  },
+  {
+    "id": "t-1600",
+    "type": "text",
+    "title": "Biện Trung Biên Luận",
+    "titles": {
+      "vi": "Biện Trung Biên Luận",
+      "original": "辯中邊論",
+      "zh": "辯中邊論"
+    },
+    "aliases": [],
+    "identifier": "T 1600",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 1600: Biện Trung Biên Luận. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-1600-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T1600",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 3
+  },
+  {
+    "id": "t-1601",
+    "type": "text",
+    "title": "Biện Trung Biên Luận Tụng",
+    "titles": {
+      "vi": "Biện Trung Biên Luận Tụng",
+      "original": "辯中邊論頌",
+      "zh": "辯中邊論頌"
+    },
+    "aliases": [],
+    "identifier": "T 1601",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 1601: Biện Trung Biên Luận Tụng. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-1601-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T1601",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 1
+  },
+  {
+    "id": "t-1602",
+    "type": "text",
+    "title": "Hiển Dương Thánh Giáo Luận",
+    "titles": {
+      "vi": "Hiển Dương Thánh Giáo Luận",
+      "original": "顯揚聖教論",
+      "zh": "顯揚聖教論"
+    },
+    "aliases": [],
+    "identifier": "T 1602",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 1602: Hiển Dương Thánh Giáo Luận. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-1602-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T1602",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 20
+  },
+  {
+    "id": "t-1603",
+    "type": "text",
+    "title": "Hiển Dương Thánh Giáo Luận Tụng",
+    "titles": {
+      "vi": "Hiển Dương Thánh Giáo Luận Tụng",
+      "original": "顯揚聖教論頌",
+      "zh": "顯揚聖教論頌"
+    },
+    "aliases": [],
+    "identifier": "T 1603",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 1603: Hiển Dương Thánh Giáo Luận Tụng. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-1603-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T1603",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 1
+  },
+  {
+    "id": "t-1605",
+    "type": "text",
+    "title": "Đại Thừa A-tì-đạt-ma Tập Luận",
+    "titles": {
+      "vi": "Đại Thừa A-tì-đạt-ma Tập Luận",
+      "original": "大乘阿毘達磨集論",
+      "zh": "大乘阿毘達磨集論"
+    },
+    "aliases": [],
+    "identifier": "T 1605",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 1605: Đại Thừa A-tì-đạt-ma Tập Luận. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-1605-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T1605",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 7
+  },
+  {
+    "id": "t-1606",
+    "type": "text",
+    "title": "Đại Thừa A-tì-đạt-ma Tạp Tập Luận",
+    "titles": {
+      "vi": "Đại Thừa A-tì-đạt-ma Tạp Tập Luận",
+      "original": "大乘阿毘達磨雜集論",
+      "zh": "大乘阿毘達磨雜集論"
+    },
+    "aliases": [],
+    "identifier": "T 1606",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 1606: Đại Thừa A-tì-đạt-ma Tạp Tập Luận. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-1606-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T1606",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 16
+  },
+  {
+    "id": "t-1609",
+    "type": "text",
+    "title": "Đại Thừa Thành Nghiệp Luận",
+    "titles": {
+      "vi": "Đại Thừa Thành Nghiệp Luận",
+      "original": "大乘成業論",
+      "zh": "大乘成業論"
+    },
+    "aliases": [],
+    "identifier": "T 1609",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 1609: Đại Thừa Thành Nghiệp Luận. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-1609-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T1609",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 1
+  },
+  {
+    "id": "t-1612",
+    "type": "text",
+    "title": "Đại Thừa Ngũ Uẩn Luận",
+    "titles": {
+      "vi": "Đại Thừa Ngũ Uẩn Luận",
+      "original": "大乘五蘊論",
+      "zh": "大乘五蘊論"
+    },
+    "aliases": [],
+    "identifier": "T 1612",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 1612: Đại Thừa Ngũ Uẩn Luận. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-1612-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T1612",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 1
+  },
+  {
+    "id": "t-1614",
+    "type": "text",
+    "title": "Đại Thừa Bách Pháp Minh Môn Luận",
+    "titles": {
+      "vi": "Đại Thừa Bách Pháp Minh Môn Luận",
+      "original": "大乘百法明門論",
+      "zh": "大乘百法明門論"
+    },
+    "aliases": [],
+    "identifier": "T 1614",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 1614: Đại Thừa Bách Pháp Minh Môn Luận. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-1614-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T1614",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 1
+  },
+  {
+    "id": "t-1615",
+    "type": "text",
+    "title": "Vương Pháp Chánh Lý Luận",
+    "titles": {
+      "vi": "Vương Pháp Chánh Lý Luận",
+      "original": "王法正理論",
+      "zh": "王法正理論"
+    },
+    "aliases": [],
+    "identifier": "T 1615",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 1615: Vương Pháp Chánh Lý Luận. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-1615-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T1615",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 1
+  },
+  {
+    "id": "t-1624",
+    "type": "text",
+    "title": "Quán Sở Duyên Duyên Luận",
+    "titles": {
+      "vi": "Quán Sở Duyên Duyên Luận",
+      "original": "觀所緣緣論",
+      "zh": "觀所緣緣論"
+    },
+    "aliases": [],
+    "identifier": "T 1624",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 1624: Quán Sở Duyên Duyên Luận. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-1624-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T1624",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 1
+  },
+  {
+    "id": "t-1628",
+    "type": "text",
+    "title": "Nhân Minh Chánh Lý Môn Luận Bổn",
+    "titles": {
+      "vi": "Nhân Minh Chánh Lý Môn Luận Bổn",
+      "original": "因明正理門論本",
+      "zh": "因明正理門論本"
+    },
+    "aliases": [],
+    "identifier": "T 1628",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 1628: Nhân Minh Chánh Lý Môn Luận Bổn. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-1628-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T1628",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 1
+  },
+  {
+    "id": "t-1630",
+    "type": "text",
+    "title": "Nhân Minh Nhập Chánh Lý Luận",
+    "titles": {
+      "vi": "Nhân Minh Nhập Chánh Lý Luận",
+      "original": "因明入正理論",
+      "zh": "因明入正理論"
+    },
+    "aliases": [],
+    "identifier": "T 1630",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 1630: Nhân Minh Nhập Chánh Lý Luận. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-1630-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T1630",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 1
+  },
+  {
+    "id": "t-2030",
+    "type": "text",
+    "title": "Đại A-la-hán Nan-đề-mật-đa-la Sở Thuyết Pháp Trụ Ký",
+    "titles": {
+      "vi": "Đại A-la-hán Nan-đề-mật-đa-la Sở Thuyết Pháp Trụ Ký",
+      "original": "大阿羅漢難提蜜多羅所說法住記",
+      "zh": "大阿羅漢難提蜜多羅所說法住記"
+    },
+    "aliases": [],
+    "identifier": "T 2030",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 2030: Đại A-la-hán Nan-đề-mật-đa-la Sở Thuyết Pháp Trụ Ký. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-2030-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T2030",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 1
+  },
+  {
+    "id": "t-2031",
+    "type": "text",
+    "title": "Dị Bộ Tông Luân Luận",
+    "titles": {
+      "vi": "Dị Bộ Tông Luân Luận",
+      "original": "異部宗輪論",
+      "zh": "異部宗輪論"
+    },
+    "aliases": [],
+    "identifier": "T 2031",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 2031: Dị Bộ Tông Luân Luận. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-2031-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T2031",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 1
+  },
+  {
+    "id": "t-2087",
+    "type": "text",
+    "title": "Đại Đường Tây Vực Ký",
+    "titles": {
+      "vi": "Đại Đường Tây Vực Ký",
+      "original": "大唐西域記",
+      "zh": "大唐西域記"
+    },
+    "aliases": [],
+    "identifier": "T 2087",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 2087: Đại Đường Tây Vực Ký. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-2087-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T2087",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 12
+  },
+  {
+    "id": "t-2138",
+    "type": "text",
+    "title": "Thắng Tông Thập Cú Nghĩa Luận",
+    "titles": {
+      "vi": "Thắng Tông Thập Cú Nghĩa Luận",
+      "original": "勝宗十句義論",
+      "zh": "勝宗十句義論"
+    },
+    "aliases": [],
+    "identifier": "T 2138",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 2138: Thắng Tông Thập Cú Nghĩa Luận. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-2138-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T2138",
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294"
+    ],
+    "volumes": 1
+  },
+  {
+    "id": "t-0310",
+    "type": "collection",
+    "title": "Kinh Đại Bảo Tích",
+    "titles": {
+      "vi": "Kinh Đại Bảo Tích",
+      "original": "大寶積經"
+    },
+    "aliases": [],
+    "identifier": "T 310",
+    "parent": "taisho",
+    "description": "Tuyển tập 49 hội, gồm các bản dịch của nhiều dịch giả; không quy toàn bộ tuyển tập cho Huyền Trang.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T0310"
+    ],
+    "volumes": 120
+  },
+  {
+    "id": "t-0310-12",
+    "type": "text",
+    "title": "Đại Bồ Tát Tạng Hội",
+    "titles": {
+      "vi": "Đại Bồ Tát Tạng Hội",
+      "original": "菩薩藏會"
+    },
+    "aliases": [],
+    "identifier": "T 310 · Hội 12",
+    "parent": "t-0310",
+    "description": "Hội thứ 12 của Đại Bảo Tích, quyển 35–54, do Huyền Trang dịch. Không đồng nhất với Đại Thừa Bồ Tát Tạng Chánh Pháp Kinh (T 316).",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T0310_035"
+    ],
+    "volumes": 20
+  },
+  {
+    "id": "t-0220-09",
+    "type": "section",
+    "title": "Năng Đoạn Kim Cương Bát-nhã Ba-la-mật-đa Kinh",
+    "titles": {
+      "vi": "Năng Đoạn Kim Cương Bát-nhã Ba-la-mật-đa Kinh",
+      "original": "能斷金剛般若波羅蜜多經"
+    },
+    "aliases": [
+      "Kim Cương",
+      "Diamond Sutra",
+      "Vajracchedikā"
+    ],
+    "identifier": "T 220 · Hội 9",
+    "parent": "t-0220",
+    "description": "Bản dịch Huyền Trang được tra cứu tại Hội thứ 9, quyển 577 của Đại Bát-nhã. Mục này nằm trong T 220, không phải thêm một bộ độc lập ngoài 600 quyển.",
+    "tags": [],
+    "relations": [
+      {
+        "type": "related",
+        "target": "t-0235",
+        "note": "Các bản Hán dịch Kim Cương khác nhau: Cưu Ma La Thập và Huyền Trang."
+      }
+    ],
+    "resourceIds": [],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T0220_577"
+    ],
+    "volumes": 1
+  },
+  {
+    "id": "t-0235",
+    "type": "text",
+    "title": "Kinh Kim Cương Bát-nhã Ba-la-mật",
+    "titles": {
+      "vi": "Kinh Kim Cương Bát-nhã Ba-la-mật",
+      "original": "金剛般若波羅蜜經"
+    },
+    "aliases": [],
+    "identifier": "T 235",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 235: Kinh Kim Cương Bát-nhã Ba-la-mật. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [
+      {
+        "type": "related",
+        "target": "t-0220-09",
+        "note": "Các bản Hán dịch Kim Cương khác nhau: Cưu Ma La Thập và Huyền Trang."
+      }
+    ],
+    "resourceIds": [
+      "t-0235-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T0235"
+    ],
+    "volumes": 1
+  },
+  {
+    "id": "t-0262",
+    "type": "text",
+    "title": "Kinh Diệu Pháp Liên Hoa",
+    "titles": {
+      "vi": "Kinh Diệu Pháp Liên Hoa",
+      "original": "妙法蓮華經"
+    },
+    "aliases": [],
+    "identifier": "T 262",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 262: Kinh Diệu Pháp Liên Hoa. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-0262-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T0262"
+    ],
+    "volumes": 7
+  },
+  {
+    "id": "t-0366",
+    "type": "text",
+    "title": "Kinh A-di-đà",
+    "titles": {
+      "vi": "Kinh A-di-đà",
+      "original": "佛說阿彌陀經"
+    },
+    "aliases": [],
+    "identifier": "T 366",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 366: Kinh A-di-đà. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [
+      {
+        "type": "related",
+        "target": "t-0367",
+        "note": "Hai bản Hán dịch kinh A-di-đà: Cưu Ma La Thập và Huyền Trang."
+      }
+    ],
+    "resourceIds": [
+      "t-0366-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T0366"
+    ],
+    "volumes": 1
+  },
+  {
+    "id": "t-0475",
+    "type": "text",
+    "title": "Kinh Duy-ma-cật Sở Thuyết",
+    "titles": {
+      "vi": "Kinh Duy-ma-cật Sở Thuyết",
+      "original": "維摩詰所說經"
+    },
+    "aliases": [],
+    "identifier": "T 475",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 475: Kinh Duy-ma-cật Sở Thuyết. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [
+      {
+        "type": "related",
+        "target": "t-0476",
+        "note": "Hai bản Hán dịch Duy-ma-cật: Cưu Ma La Thập và Huyền Trang."
+      }
+    ],
+    "resourceIds": [
+      "t-0475-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T0475"
+    ],
+    "volumes": 3
+  },
+  {
+    "id": "t-1509",
+    "type": "text",
+    "title": "Đại Trí Độ Luận",
+    "titles": {
+      "vi": "Đại Trí Độ Luận",
+      "original": "大智度論"
+    },
+    "aliases": [],
+    "identifier": "T 1509",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 1509: Đại Trí Độ Luận. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-1509-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T1509"
+    ],
+    "volumes": 100
+  },
+  {
+    "id": "t-1564",
+    "type": "text",
+    "title": "Trung Luận",
+    "titles": {
+      "vi": "Trung Luận",
+      "original": "中論"
+    },
+    "aliases": [],
+    "identifier": "T 1564",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 1564: Trung Luận. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-1564-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T1564"
+    ],
+    "volumes": 4
+  },
+  {
+    "id": "t-1568",
+    "type": "text",
+    "title": "Thập Nhị Môn Luận",
+    "titles": {
+      "vi": "Thập Nhị Môn Luận",
+      "original": "十二門論"
+    },
+    "aliases": [],
+    "identifier": "T 1568",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 1568: Thập Nhị Môn Luận. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-1568-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T1568"
+    ],
+    "volumes": 1
+  },
+  {
+    "id": "t-1569",
+    "type": "text",
+    "title": "Bách Luận",
+    "titles": {
+      "vi": "Bách Luận",
+      "original": "百論"
+    },
+    "aliases": [],
+    "identifier": "T 1569",
+    "parent": "taisho",
+    "description": "Hồ sơ thư mục T 1569: Bách Luận. Đọc văn bản và đối chiếu tại nguồn bên ngoài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-1569-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T1569"
+    ],
+    "volumes": 2
+  },
+  {
+    "id": "t-0026",
+    "type": "text",
+    "title": "Kinh Trung A-hàm",
+    "titles": {
+      "vi": "Kinh Trung A-hàm",
+      "original": "中阿含經"
+    },
+    "aliases": [],
+    "identifier": "T 26",
+    "parent": "taisho",
+    "description": "Kinh Trung A-hàm trong Hán tạng. Có bản Việt dịch và hiệu chú của Thích Tuệ Sỹ; không đồng nhất với bộ Majjhima Nikāya trong kinh điển Pāli.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-0026-vi"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T0026"
+    ],
+    "volumes": 60
+  },
+  {
+    "id": "t-0279",
+    "type": "text",
+    "title": "Kinh Đại Phương Quảng Phật Hoa Nghiêm",
+    "titles": {
+      "vi": "Kinh Đại Phương Quảng Phật Hoa Nghiêm",
+      "zh": "大方廣佛華嚴經",
+      "original": "大方廣佛華嚴經"
+    },
+    "aliases": [],
+    "identifier": "T 279",
+    "parent": "taisho",
+    "description": "Hồ sơ Kinh Đại Phương Quảng Phật Hoa Nghiêm, Hán bản T 279; bản Việt dịch được liên kết bên dưới.",
+    "volumes": 80,
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-0279-vi"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T0279",
+      "https://thuvienhoasen.org/a513/kinh-hoa-nghiem"
+    ]
+  },
+  {
+    "id": "t-0001",
+    "type": "text",
+    "title": "Kinh Trường A-hàm",
+    "titles": {
+      "vi": "Kinh Trường A-hàm",
+      "zh": "長阿含經",
+      "original": "長阿含經"
+    },
+    "aliases": [],
+    "identifier": "T 1",
+    "parent": "taisho",
+    "description": "Hồ sơ Kinh Trường A-hàm, Hán bản T 1; bản Việt dịch được liên kết bên dưới.",
+    "volumes": 22,
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-0001-vi"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T0001",
+      "https://www.daitangkinhvietnam.org/node/8697"
+    ]
   }
 ]

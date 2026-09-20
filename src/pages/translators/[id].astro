@@ -1,0 +1,23 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import { translators, entityById, href, mapHref } from '../../lib/data';
+import type { Translator } from '../../lib/schema';
+export function getStaticPaths(){return translators.map(translator=>({params:{id:translator.id},props:{translator}}))}
+interface Props {translator:Translator}
+const {translator:t}=Astro.props;
+const groups=[...new Set(t.works.map(w=>w.group))];
+const languages:Record<string,string>={vi:'Việt dịch',zh:'Hán dịch'};
+---
+<Layout title={`${t.name} — Dịch giả và tác phẩm`} description={t.description}>
+  <nav class="breadcrumbs" aria-label="Đường dẫn"><a href="/">Trang chủ</a><span>/</span><a href="/translators/">Dịch giả</a><span>/</span><span aria-current="page">{t.name}</span></nav>
+  <div class="page-kicker"><span>{t.region} / {t.period}</span><span>HỒ SƠ DỊCH GIẢ</span></div>
+  <h1>{t.name}</h1><p class="original-title">{t.originalName}</p><p class="page-intro">{t.description}</p>
+  <div class="translator-summary"><div><strong>{t.works.filter(w=>w.role==='translation').length}</strong><span>mục dịch thuật trong danh mục</span></div><div><strong>{groups.length}</strong><span>nhóm tác phẩm</span></div><a class="button" href={`/map/?translator=${t.id}`}>Xem tác phẩm trên bản đồ ↗</a></div>
+  <aside class="catalog-note">{t.historicalSummary && <h2>{t.historicalSummary}</h2>}<p>{t.scopeNote}</p></aside>
+  <nav class="group-navigation" aria-label="Nhóm tác phẩm">{groups.map((group,i)=><a href={`#group-${i}`}>{group}<span>{t.works.filter(w=>w.group===group).length}</span></a>)}</nav>
+  {groups.map((group,i)=><section class="section" id={`group-${i}`}><div class="section-heading"><h2>{group}</h2><span class="eyebrow">{t.works.filter(w=>w.group===group).length} MỤC</span></div><ol class="works-list">{t.works.filter(w=>w.group===group).map(work=>{const e=entityById.get(work.entityId)!;return <li>
+    <div class="work-content"><div class="work-meta"><span>{e.identifier||'Bộ / tuyển tập'}</span><span>{work.role==='authorship'?'Thuật ký / trước tác':languages[work.language]||work.language}</span>{e.volumes && <span>{e.volumes} quyển (Hán bản)</span>}</div><h3><a href={href(e)}>{e.title}</a></h3><p class="work-original">{e.titles.zh||e.titles.pli||e.titles.original}</p>{work.note && <p class="work-note">{work.note}</p>}<div class="work-sources">{work.sources.map((source,i)=><a href={source} target="_blank" rel="noopener noreferrer">Nguồn {i+1} · {new URL(source).hostname} ↗</a>)}</div></div>
+    <div class="work-actions"><a href={href(e)}>Hồ sơ kinh / luận →</a><a href={mapHref(e.id)} aria-label={`Xem ${e.title} trên bản đồ`}>Vị trí trên bản đồ ↗</a></div>
+  </li>})}</ol></section>)}
+  <section class="provenance"><h2>Nguồn đối chiếu</h2><ul>{t.sources.map(source=><li><a href={source} target="_blank" rel="noopener noreferrer">{new URL(source).hostname} · {new URL(source).pathname} ↗</a></li>)}</ul><p>Mỗi mục ghi riêng vai trò và ngôn ngữ dịch. Nguồn đọc có thể là Hán bản đối chiếu; tên Việt dùng để tra cứu không tự động có nghĩa là nguồn ấy có bản dịch tiếng Việt.</p></section>
+</Layout>

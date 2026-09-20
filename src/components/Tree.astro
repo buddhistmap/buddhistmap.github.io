@@ -1,16 +1,16 @@
 ---
 import { children, href, entityById, ancestors } from '../lib/data';
-interface Props { parent?: string | null; current?: string; expanded?: boolean }
-const { parent = null, current, expanded = false } = Astro.props;
+interface Props { parent?: string | null; current?: string; expanded?: boolean; anchors?: boolean }
+const { parent = null, current, expanded = false, anchors = false } = Astro.props;
 const nodes = children(parent);
 const currentEntity = current ? entityById.get(current) : undefined;
 const activePath = currentEntity ? ancestors(currentEntity).map(e => e.id) : [];
 ---
 <ul class="tree">
-  {nodes.map(node => <li>
+  {nodes.map(node => <li id={anchors ? `node-${node.id}` : undefined} data-entity-id={anchors ? node.id : undefined}>
     {children(node.id).length ? <details open={expanded || parent === null || current === node.id || activePath.includes(node.id)}>
       <summary><a href={href(node)} aria-current={current === node.id ? 'page' : undefined}>{node.title}</a></summary>
-      <Astro.self parent={node.id} current={current} expanded={expanded}/>
+      <Astro.self parent={node.id} current={current} expanded={expanded} anchors={anchors}/>
     </details> : <a class="tree-leaf" href={href(node)} aria-current={current === node.id ? 'page' : undefined}>{node.identifier ? `${node.identifier} · ` : ''}{node.title}</a>}
   </li>)}
 </ul>

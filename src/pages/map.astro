@@ -1,6 +1,21 @@
 ---
 import Layout from '../layouts/Layout.astro';
 import Tree from '../components/Tree.astro';
+import {translators, translatorVisibleIds} from '../lib/data';
+const translatorMaps=Object.fromEntries(translators.map(t=>[t.id,{name:t.name,visible:translatorVisibleIds(t.id)}]));
 ---
-<Layout title="Bản đồ kinh điển"><nav class="breadcrumbs" aria-label="Đường dẫn"><a href="/">Trang chủ</a><span>/</span><span>Bản đồ</span></nav><div class="page-kicker">CẤU TRÚC &amp; ĐƯỜNG ĐI</div><h1>Bản đồ kinh điển</h1><p class="page-intro">Đi từ toàn cảnh đến từng văn bản. Mở một nhánh để khám phá, hoặc chọn tên để xem hồ sơ tra cứu.</p><div class="map-actions"><button id="expand-tree" type="button">Mở tất cả</button><button id="collapse-tree" type="button">Thu gọn tất cả</button></div><div class="map-tree"><Tree expanded/></div><p class="fine-print">Cây thể hiện đường điều hướng chính. Các truyền thống có giao thoa; một đường dẫn không khẳng định văn bản chỉ thuộc một truyền thống.</p></Layout>
-<script>for(const [id,open] of [['expand-tree',true],['collapse-tree',false]] as const){document.getElementById(id)?.addEventListener('click',()=>document.querySelectorAll<HTMLDetailsElement>('.map-tree details').forEach(d=>d.open=open))}</script>
+<Layout title="Bản đồ kinh điển"><nav class="breadcrumbs" aria-label="Đường dẫn"><a href="/">Trang chủ</a><span>/</span><span>Bản đồ</span></nav><div class="page-kicker">CẤU TRÚC &amp; ĐƯỜNG ĐI</div><h1>Bản đồ kinh điển</h1><p class="page-intro">Đi từ toàn cảnh đến từng văn bản. Mở một nhánh để khám phá, hoặc chọn tên để xem hồ sơ tra cứu.</p>
+<div class="catalog-filters" id="map-filter-controls" hidden><label>Lọc theo dịch giả<select id="map-translator"><option value="">Tất cả dịch giả / toàn bộ bản đồ</option>{translators.map(t=><option value={t.id}>{t.name}</option>)}</select></label><a href="/translators/">Danh mục dịch giả ↗</a></div><p id="map-filter-status" role="status" class="fine-print"></p><noscript><p>Bản đồ đầy đủ ở bên dưới. <a href="/translators/">Xem tác phẩm theo dịch giả</a>.</p></noscript>
+<div class="map-actions"><button id="expand-tree" type="button">Mở tất cả</button><button id="collapse-tree" type="button">Thu gọn tất cả</button></div><div class="map-tree"><Tree expanded anchors/></div><p class="fine-print">Cây thể hiện đường điều hướng chính. Các truyền thống có giao thoa; một đường dẫn không khẳng định văn bản chỉ thuộc một truyền thống.</p><script id="translator-map-data" type="application/json" set:html={JSON.stringify(translatorMaps).replace(/</g,'\\u003c')}/></Layout>
+<script>
+for(const [id,open] of [['expand-tree',true],['collapse-tree',false]] as const){document.getElementById(id)?.addEventListener('click',()=>document.querySelectorAll<HTMLDetailsElement>('.map-tree details').forEach(d=>d.open=open))}
+const maps:Record<string,{name:string;visible:string[]}>=JSON.parse(document.getElementById('translator-map-data')!.textContent!);
+const select=document.querySelector<HTMLSelectElement>('#map-translator')!;
+document.getElementById('map-filter-controls')!.hidden=false;
+const requested=new URLSearchParams(location.search).get('translator')||'';
+select.value=Object.hasOwn(maps,requested)?requested:'';
+function filter(){const selected=maps[select.value];const ids=selected?new Set(selected.visible):null;document.querySelectorAll<HTMLElement>('.map-tree [data-entity-id]').forEach(node=>{node.hidden=ids?!ids.has(node.dataset.entityId!):false});document.querySelectorAll<HTMLDetailsElement>('.map-tree details').forEach(d=>d.open=true);document.getElementById('map-filter-status')!.textContent=selected?`Các tác phẩm đã ghi nhận của ${selected.name}, cùng nhánh chứa chúng. Chọn tên văn bản để xem ngôn ngữ và vai trò dịch.`:'Đang hiển thị toàn bộ bản đồ.';}
+function revealHash(){const target=document.getElementById(location.hash.slice(1));if(!target?.matches('.map-tree [data-entity-id]'))return;let node:HTMLElement|null=target;while(node){if(node instanceof HTMLDetailsElement)node.open=true;node=node.parentElement;}target.scrollIntoView({block:'center'});}
+filter();revealHash();window.addEventListener('hashchange',revealHash);
+select.addEventListener('change',()=>{const url=new URL(location.href);if(select.value)url.searchParams.set('translator',select.value);else url.searchParams.delete('translator');url.hash='';history.replaceState(null,'',url);filter()});
+</script>

@@ -1,0 +1,1075 @@
+[
+  {
+    "id": "huyen-trang",
+    "name": "Huyền Trang",
+    "originalName": "玄奘 · Xuanzang",
+    "aliases": [
+      "Đường Tam Tạng",
+      "Hsüan-tsang"
+    ],
+    "region": "Hán truyền",
+    "period": "Thời Đường · thế kỷ VII",
+    "description": "Dịch giả kinh điển sang Hán văn, nổi bật với Đại Bát-nhã, hệ thống Duy thức và các luận A-tì-đạt-ma.",
+    "historicalSummary": "75 bộ kinh luận theo thư mục truyền thống",
+    "scopeNote": "Danh mục này có 75 mục dịch thuật để tra cứu, gồm Hội Kim Cương nằm trong Đại Bát-nhã; các mục không phải 75 bộ độc lập, không trùng lặp về nội dung. Đại Đường Tây Vực Ký được liệt kê riêng là thuật ký. Tên Việt được chuyển từ nhan đề Hán để tra cứu, không khẳng định đã có bản dịch Việt tương ứng.",
+    "sources": [
+      "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+      "https://lib.phil.pku.edu.cn/node/56906"
+    ],
+    "works": [
+      {
+        "entityId": "t-0124",
+        "role": "translation",
+        "group": "Kinh duyên khởi / Bổn sự",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T0124"
+        ]
+      },
+      {
+        "entityId": "t-0220",
+        "role": "translation",
+        "group": "Kinh và luận giải Đại thừa",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T0220"
+        ]
+      },
+      {
+        "entityId": "t-0251",
+        "role": "translation",
+        "group": "Kinh và luận giải Đại thừa",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T0251"
+        ]
+      },
+      {
+        "entityId": "t-0289",
+        "role": "translation",
+        "group": "Kinh và luận giải Đại thừa",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T0289"
+        ]
+      },
+      {
+        "entityId": "t-0367",
+        "role": "translation",
+        "group": "Kinh và luận giải Đại thừa",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T0367"
+        ]
+      },
+      {
+        "entityId": "t-0390",
+        "role": "translation",
+        "group": "Kinh và luận giải Đại thừa",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T0390"
+        ]
+      },
+      {
+        "entityId": "t-0411",
+        "role": "translation",
+        "group": "Kinh và luận giải Đại thừa",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T0411"
+        ]
+      },
+      {
+        "entityId": "t-0436",
+        "role": "translation",
+        "group": "Kinh và luận giải Đại thừa",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T0436"
+        ]
+      },
+      {
+        "entityId": "t-0450",
+        "role": "translation",
+        "group": "Kinh và luận giải Đại thừa",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T0450"
+        ]
+      },
+      {
+        "entityId": "t-0476",
+        "role": "translation",
+        "group": "Kinh và luận giải Đại thừa",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T0476"
+        ]
+      },
+      {
+        "entityId": "t-0515",
+        "role": "translation",
+        "group": "Kinh và luận giải Đại thừa",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T0515"
+        ]
+      },
+      {
+        "entityId": "t-0592",
+        "role": "translation",
+        "group": "Kinh và luận giải Đại thừa",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T0592"
+        ]
+      },
+      {
+        "entityId": "t-0648",
+        "role": "translation",
+        "group": "Kinh và luận giải Đại thừa",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T0648"
+        ]
+      },
+      {
+        "entityId": "t-0676",
+        "role": "translation",
+        "group": "Kinh và luận giải Đại thừa",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T0676"
+        ]
+      },
+      {
+        "entityId": "t-0680",
+        "role": "translation",
+        "group": "Kinh và luận giải Đại thừa",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T0680"
+        ]
+      },
+      {
+        "entityId": "t-0689",
+        "role": "translation",
+        "group": "Kinh và luận giải Đại thừa",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T0689"
+        ]
+      },
+      {
+        "entityId": "t-0691",
+        "role": "translation",
+        "group": "Kinh và luận giải Đại thừa",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T0691"
+        ]
+      },
+      {
+        "entityId": "t-0714",
+        "role": "translation",
+        "group": "Kinh duyên khởi / Bổn sự",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T0714"
+        ]
+      },
+      {
+        "entityId": "t-0717",
+        "role": "translation",
+        "group": "Kinh và luận giải Đại thừa",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T0717"
+        ]
+      },
+      {
+        "entityId": "t-0765",
+        "role": "translation",
+        "group": "Kinh duyên khởi / Bổn sự",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T0765"
+        ]
+      },
+      {
+        "entityId": "t-0840",
+        "role": "translation",
+        "group": "Kinh và luận giải Đại thừa",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T0840"
+        ]
+      },
+      {
+        "entityId": "t-0918",
+        "role": "translation",
+        "group": "Đà-la-ni",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T0918"
+        ]
+      },
+      {
+        "entityId": "t-1034",
+        "role": "translation",
+        "group": "Đà-la-ni",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T1034"
+        ]
+      },
+      {
+        "entityId": "t-1071",
+        "role": "translation",
+        "group": "Đà-la-ni",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T1071"
+        ]
+      },
+      {
+        "entityId": "t-1094",
+        "role": "translation",
+        "group": "Đà-la-ni",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T1094"
+        ]
+      },
+      {
+        "entityId": "t-1162",
+        "role": "translation",
+        "group": "Đà-la-ni",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T1162"
+        ]
+      },
+      {
+        "entityId": "t-1360",
+        "role": "translation",
+        "group": "Đà-la-ni",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T1360"
+        ]
+      },
+      {
+        "entityId": "t-1363",
+        "role": "translation",
+        "group": "Đà-la-ni",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T1363"
+        ]
+      },
+      {
+        "entityId": "t-1365",
+        "role": "translation",
+        "group": "Đà-la-ni",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T1365"
+        ]
+      },
+      {
+        "entityId": "t-1395",
+        "role": "translation",
+        "group": "Đà-la-ni",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T1395"
+        ]
+      },
+      {
+        "entityId": "t-1499",
+        "role": "translation",
+        "group": "Luật Bồ-tát",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T1499"
+        ]
+      },
+      {
+        "entityId": "t-1501",
+        "role": "translation",
+        "group": "Luật Bồ-tát",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T1501"
+        ]
+      },
+      {
+        "entityId": "t-1530",
+        "role": "translation",
+        "group": "Kinh và luận giải Đại thừa",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T1530"
+        ]
+      },
+      {
+        "entityId": "t-1536",
+        "role": "translation",
+        "group": "A-tì-đạt-ma / Hữu bộ",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T1536"
+        ]
+      },
+      {
+        "entityId": "t-1537",
+        "role": "translation",
+        "group": "A-tì-đạt-ma / Hữu bộ",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T1537"
+        ]
+      },
+      {
+        "entityId": "t-1539",
+        "role": "translation",
+        "group": "A-tì-đạt-ma / Hữu bộ",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T1539"
+        ]
+      },
+      {
+        "entityId": "t-1540",
+        "role": "translation",
+        "group": "A-tì-đạt-ma / Hữu bộ",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T1540"
+        ]
+      },
+      {
+        "entityId": "t-1542",
+        "role": "translation",
+        "group": "A-tì-đạt-ma / Hữu bộ",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T1542"
+        ]
+      },
+      {
+        "entityId": "t-1544",
+        "role": "translation",
+        "group": "A-tì-đạt-ma / Hữu bộ",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T1544"
+        ]
+      },
+      {
+        "entityId": "t-1545",
+        "role": "translation",
+        "group": "A-tì-đạt-ma / Hữu bộ",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T1545"
+        ]
+      },
+      {
+        "entityId": "t-1554",
+        "role": "translation",
+        "group": "A-tì-đạt-ma / Hữu bộ",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T1554"
+        ]
+      },
+      {
+        "entityId": "t-1555",
+        "role": "translation",
+        "group": "A-tì-đạt-ma / Hữu bộ",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T1555"
+        ]
+      },
+      {
+        "entityId": "t-1558",
+        "role": "translation",
+        "group": "A-tì-đạt-ma / Hữu bộ",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T1558"
+        ]
+      },
+      {
+        "entityId": "t-1560",
+        "role": "translation",
+        "group": "A-tì-đạt-ma / Hữu bộ",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T1560"
+        ]
+      },
+      {
+        "entityId": "t-1562",
+        "role": "translation",
+        "group": "A-tì-đạt-ma / Hữu bộ",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T1562"
+        ]
+      },
+      {
+        "entityId": "t-1563",
+        "role": "translation",
+        "group": "A-tì-đạt-ma / Hữu bộ",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T1563"
+        ]
+      },
+      {
+        "entityId": "t-1570",
+        "role": "translation",
+        "group": "Trung quán / Luận lý",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T1570"
+        ]
+      },
+      {
+        "entityId": "t-1571",
+        "role": "translation",
+        "group": "Trung quán / Luận lý",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T1571"
+        ]
+      },
+      {
+        "entityId": "t-1578",
+        "role": "translation",
+        "group": "Trung quán / Luận lý",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T1578"
+        ]
+      },
+      {
+        "entityId": "t-1579",
+        "role": "translation",
+        "group": "Duy thức / Du-già hành",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T1579"
+        ]
+      },
+      {
+        "entityId": "t-1580",
+        "role": "translation",
+        "group": "Duy thức / Du-già hành",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T1580"
+        ]
+      },
+      {
+        "entityId": "t-1585",
+        "role": "translation",
+        "group": "Duy thức / Du-già hành",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T1585"
+        ]
+      },
+      {
+        "entityId": "t-1586",
+        "role": "translation",
+        "group": "Duy thức / Du-già hành",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T1586"
+        ]
+      },
+      {
+        "entityId": "t-1590",
+        "role": "translation",
+        "group": "Duy thức / Du-già hành",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T1590"
+        ]
+      },
+      {
+        "entityId": "t-1594",
+        "role": "translation",
+        "group": "Duy thức / Du-già hành",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T1594"
+        ]
+      },
+      {
+        "entityId": "t-1597",
+        "role": "translation",
+        "group": "Duy thức / Du-già hành",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T1597"
+        ]
+      },
+      {
+        "entityId": "t-1598",
+        "role": "translation",
+        "group": "Duy thức / Du-già hành",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T1598"
+        ]
+      },
+      {
+        "entityId": "t-1600",
+        "role": "translation",
+        "group": "Duy thức / Du-già hành",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T1600"
+        ]
+      },
+      {
+        "entityId": "t-1601",
+        "role": "translation",
+        "group": "Duy thức / Du-già hành",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T1601"
+        ]
+      },
+      {
+        "entityId": "t-1602",
+        "role": "translation",
+        "group": "Duy thức / Du-già hành",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T1602"
+        ]
+      },
+      {
+        "entityId": "t-1603",
+        "role": "translation",
+        "group": "Duy thức / Du-già hành",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T1603"
+        ]
+      },
+      {
+        "entityId": "t-1605",
+        "role": "translation",
+        "group": "Duy thức / Du-già hành",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T1605"
+        ]
+      },
+      {
+        "entityId": "t-1606",
+        "role": "translation",
+        "group": "Duy thức / Du-già hành",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T1606"
+        ]
+      },
+      {
+        "entityId": "t-1609",
+        "role": "translation",
+        "group": "Duy thức / Du-già hành",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T1609"
+        ]
+      },
+      {
+        "entityId": "t-1612",
+        "role": "translation",
+        "group": "Duy thức / Du-già hành",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T1612"
+        ]
+      },
+      {
+        "entityId": "t-1614",
+        "role": "translation",
+        "group": "Duy thức / Du-già hành",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T1614"
+        ]
+      },
+      {
+        "entityId": "t-1615",
+        "role": "translation",
+        "group": "Duy thức / Du-già hành",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T1615"
+        ]
+      },
+      {
+        "entityId": "t-1624",
+        "role": "translation",
+        "group": "Duy thức / Du-già hành",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T1624"
+        ]
+      },
+      {
+        "entityId": "t-1628",
+        "role": "translation",
+        "group": "Trung quán / Luận lý",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T1628"
+        ]
+      },
+      {
+        "entityId": "t-1630",
+        "role": "translation",
+        "group": "Trung quán / Luận lý",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T1630"
+        ]
+      },
+      {
+        "entityId": "t-2030",
+        "role": "translation",
+        "group": "Sử truyện / Bộ phái",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T2030"
+        ]
+      },
+      {
+        "entityId": "t-2031",
+        "role": "translation",
+        "group": "Sử truyện / Bộ phái",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T2031"
+        ]
+      },
+      {
+        "entityId": "t-2087",
+        "role": "authorship",
+        "group": "Thuật ký",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T2087"
+        ],
+        "note": "Huyền Trang thuật, Biện Cơ biên tập. Tác phẩm địa lý và hành trình; không tính là kinh luận dịch."
+      },
+      {
+        "entityId": "t-2138",
+        "role": "translation",
+        "group": "Trung quán / Luận lý",
+        "language": "zh",
+        "sources": [
+          "https://authority-dev.dila.edu.tw/catalog/search.php?editor=A000294",
+          "https://cbetaonline.dila.edu.tw/zh/T2138"
+        ]
+      },
+      {
+        "entityId": "t-0310-12",
+        "role": "translation",
+        "group": "Kinh và luận giải Đại thừa",
+        "language": "zh",
+        "sources": [
+          "https://cbetaonline.dila.edu.tw/zh/T0310_035",
+          "https://lib.phil.pku.edu.cn/node/56906"
+        ]
+      },
+      {
+        "entityId": "t-0220-09",
+        "role": "translation",
+        "group": "Kinh và luận giải Đại thừa",
+        "language": "zh",
+        "sources": [
+          "https://cbetaonline.dila.edu.tw/zh/T0220_577",
+          "https://lib.phil.pku.edu.cn/node/56906"
+        ],
+        "note": "Hội 9 nằm trong T 220; hiển thị riêng để tra cứu bản Kim Cương. Không cộng số quyển này lần nữa vào tổng Đại Bát-nhã."
+      }
+    ]
+  },
+  {
+    "id": "cuu-ma-la-thap",
+    "name": "Cưu Ma La Thập",
+    "originalName": "鳩摩羅什 · Kumārajīva",
+    "aliases": [
+      "Kumarajiva",
+      "La Thập"
+    ],
+    "region": "Hán truyền",
+    "period": "Thời Hậu Tần · thế kỷ IV–V",
+    "description": "Cao tăng gốc Quy Tư, dịch kinh sang Hán văn tại Trường An. Được xếp vào truyền thống dịch thuật Hán truyền, không dùng nhóm này để chỉ quốc tịch hiện đại.",
+    "scopeNote": "Tám tác phẩm tiêu biểu theo ghi nhận của kinh lục; không phải toàn bộ sự nghiệp dịch thuật. Vai trò dịch giả theo nhan đề truyền thống không thay thế nghiên cứu về quá trình hình thành văn bản.",
+    "sources": [
+      "https://cbc.dila.edu.tw/cbc/text/400/",
+      "https://tripitaka.cbeta.org/T09n0262_002"
+    ],
+    "works": [
+      {
+        "entityId": "t-0235",
+        "role": "translation",
+        "group": "Bát-nhã",
+        "language": "zh",
+        "sources": [
+          "https://cbetaonline.dila.edu.tw/zh/T0235"
+        ]
+      },
+      {
+        "entityId": "t-0262",
+        "role": "translation",
+        "group": "Kinh Đại thừa",
+        "language": "zh",
+        "sources": [
+          "https://cbetaonline.dila.edu.tw/zh/T0262"
+        ]
+      },
+      {
+        "entityId": "t-0366",
+        "role": "translation",
+        "group": "Tịnh độ",
+        "language": "zh",
+        "sources": [
+          "https://cbetaonline.dila.edu.tw/zh/T0366"
+        ]
+      },
+      {
+        "entityId": "t-0475",
+        "role": "translation",
+        "group": "Kinh Đại thừa",
+        "language": "zh",
+        "sources": [
+          "https://cbetaonline.dila.edu.tw/zh/T0475"
+        ]
+      },
+      {
+        "entityId": "t-1509",
+        "role": "translation",
+        "group": "Luận giải",
+        "language": "zh",
+        "sources": [
+          "https://cbetaonline.dila.edu.tw/zh/T1509"
+        ]
+      },
+      {
+        "entityId": "t-1564",
+        "role": "translation",
+        "group": "Trung quán",
+        "language": "zh",
+        "sources": [
+          "https://cbetaonline.dila.edu.tw/zh/T1564"
+        ]
+      },
+      {
+        "entityId": "t-1568",
+        "role": "translation",
+        "group": "Trung quán",
+        "language": "zh",
+        "sources": [
+          "https://cbetaonline.dila.edu.tw/zh/T1568"
+        ]
+      },
+      {
+        "entityId": "t-1569",
+        "role": "translation",
+        "group": "Trung quán",
+        "language": "zh",
+        "sources": [
+          "https://cbetaonline.dila.edu.tw/zh/T1569"
+        ]
+      }
+    ]
+  },
+  {
+    "id": "thich-minh-chau",
+    "name": "Thích Minh Châu",
+    "originalName": "Bhikkhu Minh Châu",
+    "aliases": [
+      "Hòa thượng Minh Châu"
+    ],
+    "region": "Việt Nam",
+    "period": "Thế kỷ XX–XXI",
+    "description": "Dịch giả kinh điển Pāli sang tiếng Việt, gắn với các bản dịch Trường Bộ, Trung Bộ, Tương Ưng Bộ và Tăng Chi Bộ.",
+    "scopeNote": "Liệt kê bốn bộ Nikāya và những bài kinh đã có hồ sơ trên BuddhistMap. Đây là danh mục chọn lọc; không quy toàn bộ Tiểu Bộ cho một dịch giả và không cộng bài kinh con thành bộ độc lập.",
+    "sources": [
+      "https://www.budsas.org/uni/u-kinh-truongbo/truong00.htm",
+      "https://www.budsas.org/uni/u-kinh-trungbo/trung00.htm",
+      "https://www.budsas.org/uni/u-kinh-tuongungbo/tu-00.htm",
+      "https://www.budsas.org/uni/u-kinh-tangchibo/tangchi00.htm"
+    ],
+    "works": [
+      {
+        "entityId": "digha-nikaya",
+        "role": "translation",
+        "group": "Các bộ Nikāya",
+        "language": "vi",
+        "sources": [
+          "https://www.budsas.org/uni/u-kinh-truongbo/truong00.htm"
+        ]
+      },
+      {
+        "entityId": "majjhima-nikaya",
+        "role": "translation",
+        "group": "Các bộ Nikāya",
+        "language": "vi",
+        "sources": [
+          "https://www.budsas.org/uni/u-kinh-trungbo/trung00.htm"
+        ]
+      },
+      {
+        "entityId": "samyutta-nikaya",
+        "role": "translation",
+        "group": "Các bộ Nikāya",
+        "language": "vi",
+        "sources": [
+          "https://www.budsas.org/uni/u-kinh-tuongungbo/tu-00.htm"
+        ]
+      },
+      {
+        "entityId": "anguttara-nikaya",
+        "role": "translation",
+        "group": "Các bộ Nikāya",
+        "language": "vi",
+        "sources": [
+          "https://www.budsas.org/uni/u-kinh-tangchibo/tangchi00.htm"
+        ]
+      },
+      {
+        "entityId": "dn-01",
+        "role": "translation",
+        "group": "Bài kinh đã lập chỉ mục",
+        "language": "vi",
+        "sources": [
+          "https://suttacentral.net/dn1/vi/minh_chau"
+        ],
+        "note": "Bài kinh thuộc một bộ Nikāya ở trên; không tính thêm thành một bộ dịch độc lập."
+      },
+      {
+        "entityId": "dn-02",
+        "role": "translation",
+        "group": "Bài kinh đã lập chỉ mục",
+        "language": "vi",
+        "sources": [
+          "https://suttacentral.net/dn2/vi/minh_chau"
+        ],
+        "note": "Bài kinh thuộc một bộ Nikāya ở trên; không tính thêm thành một bộ dịch độc lập."
+      },
+      {
+        "entityId": "dn-022",
+        "role": "translation",
+        "group": "Bài kinh đã lập chỉ mục",
+        "language": "vi",
+        "sources": [
+          "https://suttacentral.net/dn22/vi/minh_chau"
+        ],
+        "note": "Bài kinh thuộc một bộ Nikāya ở trên; không tính thêm thành một bộ dịch độc lập."
+      },
+      {
+        "entityId": "mn-010",
+        "role": "translation",
+        "group": "Bài kinh đã lập chỉ mục",
+        "language": "vi",
+        "sources": [
+          "https://suttacentral.net/mn10/vi/minh_chau"
+        ],
+        "note": "Bài kinh thuộc một bộ Nikāya ở trên; không tính thêm thành một bộ dịch độc lập."
+      },
+      {
+        "entityId": "mn-118",
+        "role": "translation",
+        "group": "Bài kinh đã lập chỉ mục",
+        "language": "vi",
+        "sources": [
+          "https://suttacentral.net/mn118/vi/minh_chau"
+        ],
+        "note": "Bài kinh thuộc một bộ Nikāya ở trên; không tính thêm thành một bộ dịch độc lập."
+      },
+      {
+        "entityId": "sn-56-11",
+        "role": "translation",
+        "group": "Bài kinh đã lập chỉ mục",
+        "language": "vi",
+        "sources": [
+          "https://suttacentral.net/sn56.11/vi/minh_chau"
+        ],
+        "note": "Bài kinh thuộc một bộ Nikāya ở trên; không tính thêm thành một bộ dịch độc lập."
+      },
+      {
+        "entityId": "an-3-65",
+        "role": "translation",
+        "group": "Bài kinh đã lập chỉ mục",
+        "language": "vi",
+        "sources": [
+          "https://suttacentral.net/an3.65/vi/minh_chau"
+        ],
+        "note": "Bài kinh thuộc một bộ Nikāya ở trên; không tính thêm thành một bộ dịch độc lập."
+      }
+    ]
+  },
+  {
+    "id": "thich-tri-tinh",
+    "name": "Thích Trí Tịnh",
+    "originalName": "Hòa thượng Trí Tịnh",
+    "aliases": [],
+    "region": "Việt Nam",
+    "period": "Thế kỷ XX–XXI",
+    "description": "Dịch giả kinh điển Đại thừa từ Hán văn sang tiếng Việt, với nhiều bản kinh được đọc tụng rộng rãi.",
+    "scopeNote": "Danh mục chọn lọc. Liên kết tới hồ sơ Hán bản giúp phân biệt bản gốc tra cứu với bản dịch tiếng Việt; nguồn Việt được ghi trong từng mục.",
+    "sources": [
+      "https://thuvienhoasen.org/a19043/tri-tinh-toan-tap",
+      "https://thuvienhoasen.org/a513/kinh-hoa-nghiem"
+    ],
+    "works": [
+      {
+        "entityId": "t-0262",
+        "role": "translation",
+        "group": "Kinh Đại thừa",
+        "language": "vi",
+        "sources": [
+          "https://thuvienhoasen.org/a19043/tri-tinh-toan-tap"
+        ],
+        "note": "Việt dịch từ bản Diệu Pháp Liên Hoa của Cưu Ma La Thập; liên kết hồ sơ T 262 là Hán bản đối chiếu."
+      },
+      {
+        "entityId": "t-0279",
+        "role": "translation",
+        "group": "Kinh Đại thừa",
+        "language": "vi",
+        "sources": [
+          "https://thuvienhoasen.org/a513/kinh-hoa-nghiem"
+        ],
+        "note": "Việt dịch từ Hán bản Thật-xoa-nan-đà. Số 80 quyển là cấu trúc Hán bản, không phải số tập sách Việt."
+      }
+    ]
+  },
+  {
+    "id": "thich-tue-sy",
+    "name": "Thích Tuệ Sỹ",
+    "originalName": "Hòa thượng Tuệ Sỹ",
+    "aliases": [
+      "Tuệ Sĩ"
+    ],
+    "region": "Việt Nam",
+    "period": "Thế kỷ XX–XXI",
+    "description": "Học giả và dịch giả Phật học; danh mục khởi đầu giới thiệu bản Việt dịch và hiệu chú Trường A-hàm, Trung A-hàm.",
+    "scopeNote": "Hai tác phẩm đại diện có nguồn đối chiếu, không phải tổng mục trước tác và dịch phẩm của ngài.",
+    "sources": [
+      "https://www.budsas.org/uni/u-kinh-ahamtrung/trungaham_idx.htm",
+      "https://www.daitangkinhvietnam.org/node/8697"
+    ],
+    "works": [
+      {
+        "entityId": "t-0026",
+        "role": "translation",
+        "group": "A-hàm",
+        "language": "vi",
+        "sources": [
+          "https://www.budsas.org/uni/u-kinh-ahamtrung/trungaham_idx.htm"
+        ],
+        "note": "Việt dịch và hiệu chú. Không phải dịch giả Hán bản T 26."
+      },
+      {
+        "entityId": "t-0001",
+        "role": "translation",
+        "group": "A-hàm",
+        "language": "vi",
+        "sources": [
+          "https://www.daitangkinhvietnam.org/node/8697"
+        ],
+        "note": "Việt dịch và hiệu chú; không phải dịch giả Hán bản T 1."
+      }
+    ]
+  }
+]

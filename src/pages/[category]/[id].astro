@@ -2,21 +2,24 @@
 import Layout from '../../layouts/Layout.astro';
 import EntityList from '../../components/EntityList.astro';
 import Resources from '../../components/Resources.astro';
-import {entities,resources,segments,labels,href,ancestors,children,entityById} from '../../lib/data';
+import {entities,resources,segments,labels,href,ancestors,children,entityById,creditsFor,translatorHref,mapHref} from '../../lib/data';
 import type {Entity} from '../../lib/schema';
 export function getStaticPaths(){return entities.map(entity=>({params:{category:segments[entity.type],id:entity.id},props:{entity}}))}
 interface Props {entity:Entity}
 const {entity}=Astro.props;
 const lineage=ancestors(entity), nested=children(entity.id);
 const external=resources.filter(r=>entity.resourceIds.includes(r.id));
-const names:Record<string,string>={vi:'Tiếng Việt',en:'Tiếng Anh',pli:'Pāli',original:'Tên gọi gốc / khác'};
+const credits=creditsFor(entity.id);
+const names:Record<string,string>={vi:'Tiếng Việt',en:'Tiếng Anh',pli:'Pāli',original:'Tên gọi gốc / khác',zh:'Hán văn'};
 ---
 <Layout title={`${entity.identifier ? entity.identifier+' — ' : ''}${entity.title}`} description={entity.description} current={entity.id}>
 <nav class="breadcrumbs" aria-label="Đường dẫn"><a href="/">Trang chủ</a>{lineage.map(p=><><span aria-hidden="true">/</span><a href={href(p)}>{p.title}</a></>)}<span aria-hidden="true">/</span><span aria-current="page">{entity.identifier||entity.title}</span></nav>
 <div class="page-kicker"><span>{labels[entity.type]}{entity.identifier && ` / ${entity.identifier}`}</span><span class="edition">HỒ SƠ TRA CỨU</span></div><h1>{entity.title}</h1>{(entity.titles.pli||entity.titles.original) && <p class="original-title">{entity.titles.pli||entity.titles.original}</p>}<p class="page-intro">{entity.description}</p>
-<section class="metadata"><dl>{entity.identifier && <div><dt>Mã định danh</dt><dd>{entity.identifier}</dd></div>}{lineage.map(p=><div><dt>{labels[p.type]}</dt><dd><a href={href(p)}>{p.title}</a></dd></div>)}{Object.entries(entity.titles).map(([lang,name])=><div><dt>{names[lang]||lang}</dt><dd>{name}</dd></div>)}{entity.aliases.length>0 && <div><dt>Tên gọi khác</dt><dd>{entity.aliases.join(' · ')}</dd></div>}</dl></section>
+<section class="metadata"><dl>{entity.volumes && <div><dt>Số quyển (Hán bản)</dt><dd>{entity.volumes}</dd></div>}{entity.identifier && <div><dt>Mã định danh</dt><dd>{entity.identifier}</dd></div>}{lineage.map(p=><div><dt>{labels[p.type]}</dt><dd><a href={href(p)}>{p.title}</a></dd></div>)}{Object.entries(entity.titles).map(([lang,name])=><div><dt>{names[lang]||lang}</dt><dd>{name}</dd></div>)}{entity.aliases.length>0 && <div><dt>Tên gọi khác</dt><dd>{entity.aliases.join(' · ')}</dd></div>}</dl></section>
 {entity.tags.length>0 && <div class="tags">{entity.tags.map(tag=><a href={`/search/?q=${encodeURIComponent(tag)}`}>{tag}</a>)}</div>}
-{entity.type!=='text' && <section class="section"><div class="section-heading"><h2>Khám phá bên trong</h2><span class="eyebrow">{nested.length} MỤC ĐÃ LẬP CHỈ MỤC</span></div>{nested.length ? <EntityList items={nested}/> : <div class="empty-state"><h3>Nhánh này đang được bổ sung</h3><p>Chưa có văn bản con trong dữ liệu khởi đầu. Bạn có thể tham khảo nguồn bên dưới.</p></div>}</section>}
+<p class="map-shortcut"><a href={mapHref(entity.id)}>Xem vị trí trên bản đồ ↗</a></p>
+{credits.length>0 && <section class="section"><h2>Dịch giả &amp; vai trò</h2><div class="credit-list">{credits.map(({translator,work})=><article><a href={translatorHref(translator.id)}>{translator.name} ↗</a><span>{work.role==='authorship'?'Thuật ký / trước tác':work.language==='vi'?'Dịch sang tiếng Việt':'Dịch sang Hán văn'}</span>{work.note && <p>{work.note}</p>}<div class="work-sources">{work.sources.map((source,i)=><a href={source} target="_blank" rel="noopener noreferrer">Nguồn ghi nhận {i+1} ↗</a>)}</div></article>)}</div></section>}
+{(nested.length>0 || !['text','section'].includes(entity.type)) && <section class="section"><div class="section-heading"><h2>Khám phá bên trong</h2><span class="eyebrow">{nested.length} MỤC ĐÃ LẬP CHỈ MỤC</span></div>{nested.length ? <EntityList items={nested}/> : <div class="empty-state"><h3>Nhánh này đang được bổ sung</h3><p>Chưa có văn bản con trong dữ liệu khởi đầu. Bạn có thể tham khảo nguồn bên dưới.</p></div>}</section>}
 <section class="section"><div class="section-heading"><h2>Nguồn bên ngoài</h2><span aria-hidden="true">↗</span></div><p class="muted">Các liên kết mở trong tab mới. Nội dung do website nguồn cung cấp.</p>{external.length ? <Resources items={external}/> : <p class="fine-print">Chưa có liên kết đọc hoặc nghe riêng cho mục này. Xem nguồn metadata bên dưới.</p>}{entity.type==='text' && !external.some(r=>r.type==='listen') && <p class="fine-print">Chưa bổ sung nguồn nghe cho văn bản này.</p>}</section>
 {entity.relations.length>0 && <section class="section"><h2>Văn bản liên quan</h2>{entity.relations.map(r=><div><EntityList items={[entityById.get(r.target)!]}/><p class="fine-print">{r.note}</p></div>)}</section>}
 <section class="provenance"><h2>Nguồn metadata</h2><p>Thông tin tóm lược do BuddhistMap biên soạn để tra cứu. Đối chiếu tên gọi và nội dung tại:</p><ul>{entity.sources.map(url=><li><a href={url} target="_blank" rel="noopener noreferrer">{new URL(url).hostname} · {new URL(url).pathname} ↗</a></li>)}</ul></section>

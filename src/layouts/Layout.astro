@@ -1,9 +1,10 @@
 ---
 import Tree from '../components/Tree.astro';
 import '../styles/global.css';
+import '../styles/translators.css';
 interface Props { title: string; description?: string; current?: string }
 const {title,description='Bản đồ tra cứu kinh điển Phật giáo. Khám phá cấu trúc, tên gọi và nguồn đọc, nghe bên ngoài.',current} = Astro.props;
-const nav=[['/map/','Bản đồ'],['/traditions/','Truyền thống'],['/canons/','Kinh điển'],['/collections/','Bộ kinh'],['/texts/','Văn bản'],['/resources/','Nguồn tham khảo']];
+const nav=[['/map/','Bản đồ'],['/traditions/','Truyền thống'],['/canons/','Kinh điển'],['/collections/','Bộ kinh'],['/texts/','Văn bản'],['/translators/','Dịch giả'],['/resources/','Nguồn tham khảo']];
 ---
 <!doctype html><html lang="vi"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width"/><title>{title} · BuddhistMap</title><meta name="description" content={description}/><link rel="canonical" href={new URL(Astro.url.pathname,Astro.site)}/><meta property="og:title" content={`${title} · BuddhistMap`}/><meta property="og:description" content={description}/><meta property="og:type" content="website"/><meta property="og:url" content={new URL(Astro.url.pathname,Astro.site)}/><meta property="og:image" content={new URL('/social.svg',Astro.site)}/><link rel="icon" type="image/svg+xml" href="/favicon.svg"/></head><body>
 <a class="skip-link" href="#main">Đến nội dung chính</a>

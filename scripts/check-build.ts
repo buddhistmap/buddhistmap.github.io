@@ -9,6 +9,11 @@ for(const page of pages){
     const path=decodeURIComponent(match[1].split(/[?#]/)[0]);
     const target=join('dist',path.endsWith('/')?path+'index.html':path);
     if(!existsSync(target))throw new Error(`Broken internal link in ${page}: ${path}`);
+    const fragment=match[1].split('#')[1];
+    if(fragment && target.endsWith('.html')){
+      const id=decodeURIComponent(fragment);
+      if(!readFileSync(target,'utf8').includes(`id="${id}"`))throw new Error(`Missing anchor in ${page}: ${match[1]}`);
+    }
     checked++;
   }
 }
