@@ -173,12 +173,15 @@
     "aliases": [],
     "parent": "sutta-pitaka",
     "description": "Bộ các bài kinh dài.",
-    "tags": [],
+    "tags": [
+      "phổ biến"
+    ],
     "relations": [],
     "resourceIds": [],
     "sources": [
       "https://suttacentral.net/pitaka/sutta"
-    ]
+    ],
+    "volumes": 3
   },
   {
     "id": "majjhima-nikaya",
@@ -191,12 +194,15 @@
     "aliases": [],
     "parent": "sutta-pitaka",
     "description": "Bộ các bài kinh có độ dài trung bình.",
-    "tags": [],
+    "tags": [
+      "phổ biến"
+    ],
     "relations": [],
     "resourceIds": [],
     "sources": [
       "https://suttacentral.net/pitaka/sutta"
-    ]
+    ],
+    "volumes": 3
   },
   {
     "id": "samyutta-nikaya",
@@ -209,12 +215,15 @@
     "aliases": [],
     "parent": "sutta-pitaka",
     "description": "Các bài kinh được nhóm theo chủ đề tương ưng.",
-    "tags": [],
+    "tags": [
+      "phổ biến"
+    ],
     "relations": [],
     "resourceIds": [],
     "sources": [
       "https://suttacentral.net/pitaka/sutta"
-    ]
+    ],
+    "volumes": 5
   },
   {
     "id": "anguttara-nikaya",
@@ -227,12 +236,15 @@
     "aliases": [],
     "parent": "sutta-pitaka",
     "description": "Các bài kinh được sắp xếp theo những nhóm pháp có số lượng tăng dần.",
-    "tags": [],
+    "tags": [
+      "phổ biến"
+    ],
     "relations": [],
     "resourceIds": [],
     "sources": [
       "https://suttacentral.net/pitaka/sutta"
-    ]
+    ],
+    "volumes": 3
   },
   {
     "id": "khuddaka-nikaya",
@@ -250,7 +262,8 @@
     "resourceIds": [],
     "sources": [
       "https://suttacentral.net/pitaka/sutta"
-    ]
+    ],
+    "volumes": 15
   },
   {
     "id": "taisho",
@@ -2656,13 +2669,15 @@
     "tags": [
       "luật tạng",
       "giới luật",
-      "tỳ khưu"
+      "tỳ khưu",
+      "phổ biến"
     ],
     "relations": [],
     "resourceIds": [],
     "sources": [
       "https://suttacentral.net/pitaka/vinaya/pli-tv-bu-vb"
-    ]
+    ],
+    "volumes": 2
   },
   {
     "id": "bhikkhuni-vibhanga",
@@ -2688,7 +2703,8 @@
     "resourceIds": [],
     "sources": [
       "https://suttacentral.net/pitaka/vinaya/pli-tv-bi-vb"
-    ]
+    ],
+    "volumes": 1
   },
   {
     "id": "mahavagga",
@@ -2709,13 +2725,15 @@
     "tags": [
       "luật tạng",
       "khandhaka",
-      "tăng đoàn"
+      "tăng đoàn",
+      "phổ biến"
     ],
     "relations": [],
     "resourceIds": [],
     "sources": [
       "https://suttacentral.net/pitaka/vinaya/pli-tv-kd"
-    ]
+    ],
+    "volumes": 2
   },
   {
     "id": "cullavagga",
@@ -2742,7 +2760,8 @@
     "resourceIds": [],
     "sources": [
       "https://suttacentral.net/pitaka/vinaya/pli-tv-kd"
-    ]
+    ],
+    "volumes": 2
   },
   {
     "id": "parivara",
@@ -2769,7 +2788,8 @@
     "resourceIds": [],
     "sources": [
       "https://suttacentral.net/pitaka/vinaya/pli-tv-pvr"
-    ]
+    ],
+    "volumes": 1
   },
   {
     "id": "khuddakapatha",
@@ -2789,13 +2809,15 @@
     "tags": [
       "tiểu bộ",
       "kinh tạng",
-      "khuddaka"
+      "khuddaka",
+      "phổ biến"
     ],
     "relations": [],
     "resourceIds": [],
     "sources": [
       "https://suttacentral.net/kp"
-    ]
+    ],
+    "volumes": 1
   },
   {
     "id": "dhammapada",
@@ -2816,13 +2838,15 @@
     "tags": [
       "tiểu bộ",
       "pháp cú",
-      "kệ ngôn"
+      "kệ ngôn",
+      "phổ biến"
     ],
     "relations": [],
     "resourceIds": [],
     "sources": [
       "https://suttacentral.net/dhp"
-    ]
+    ],
+    "volumes": 1
   },
   {
     "id": "udana",
@@ -2843,13 +2867,15 @@
     "tags": [
       "tiểu bộ",
       "tự thuyết",
-      "udana"
+      "udana",
+      "phổ biến"
     ],
     "relations": [],
     "resourceIds": [],
     "sources": [
       "https://suttacentral.net/ud"
-    ]
+    ],
+    "volumes": 1
   },
   {
     "id": "itivuttaka",
@@ -2870,13 +2896,15 @@
     "tags": [
       "tiểu bộ",
       "như thị ngữ",
-      "itivuttaka"
+      "itivuttaka",
+      "phổ biến"
     ],
     "relations": [],
     "resourceIds": [],
     "sources": [
       "https://suttacentral.net/iti"
-    ]
+    ],
+    "volumes": 1
   },
   {
     "id": "sutta-nipata",
@@ -2896,13 +2924,15 @@
     "tags": [
       "tiểu bộ",
       "kinh tập",
-      "sutta nipata"
+      "sutta nipata",
+      "phổ biến"
     ],
     "relations": [],
     "resourceIds": [],
     "sources": [
       "https://suttacentral.net/snp"
-    ]
+    ],
+    "volumes": 1
   },
   {
     "id": "vimanavatthu",
@@ -2928,7 +2958,8 @@
     "resourceIds": [],
     "sources": [
       "https://suttacentral.net/vv"
-    ]
+    ],
+    "volumes": 1
   },
   {
     "id": "petavatthu",
@@ -2954,7 +2985,8 @@
     "resourceIds": [],
     "sources": [
       "https://suttacentral.net/pv"
-    ]
+    ],
+    "volumes": 1
   },
   {
     "id": "theragatha",
@@ -2974,13 +3006,15 @@
     "tags": [
       "tiểu bộ",
       "trưởng lão tăng",
-      "kệ ngôn"
+      "kệ ngôn",
+      "phổ biến"
     ],
     "relations": [],
     "resourceIds": [],
     "sources": [
       "https://suttacentral.net/thag"
-    ]
+    ],
+    "volumes": 1
   },
   {
     "id": "therigatha",
@@ -3000,13 +3034,15 @@
     "tags": [
       "tiểu bộ",
       "trưởng lão ni",
-      "kệ ngôn"
+      "kệ ngôn",
+      "phổ biến"
     ],
     "relations": [],
     "resourceIds": [],
     "sources": [
       "https://suttacentral.net/thig"
-    ]
+    ],
+    "volumes": 1
   },
   {
     "id": "jataka",
@@ -3028,13 +3064,15 @@
       "tiểu bộ",
       "tiền thân",
       "jataka",
-      "bổn sanh"
+      "bổn sanh",
+      "phổ biến"
     ],
     "relations": [],
     "resourceIds": [],
     "sources": [
       "https://suttacentral.net/ja"
-    ]
+    ],
+    "volumes": 2
   },
   {
     "id": "niddesa",
@@ -3061,7 +3099,8 @@
     "resourceIds": [],
     "sources": [
       "https://suttacentral.net/mnd"
-    ]
+    ],
+    "volumes": 2
   },
   {
     "id": "patisambhidamagga",
@@ -3088,7 +3127,8 @@
     "resourceIds": [],
     "sources": [
       "https://suttacentral.net/ps"
-    ]
+    ],
+    "volumes": 1
   },
   {
     "id": "apadana",
@@ -3115,7 +3155,8 @@
     "resourceIds": [],
     "sources": [
       "https://suttacentral.net/tha-ap"
-    ]
+    ],
+    "volumes": 2
   },
   {
     "id": "buddhavamsa",
@@ -3141,7 +3182,8 @@
     "resourceIds": [],
     "sources": [
       "https://suttacentral.net/bv"
-    ]
+    ],
+    "volumes": 1
   },
   {
     "id": "cariyapitaka",
@@ -3168,7 +3210,8 @@
     "resourceIds": [],
     "sources": [
       "https://suttacentral.net/cp"
-    ]
+    ],
+    "volumes": 1
   },
   {
     "id": "dhammasangani",
@@ -3189,13 +3232,15 @@
       "luận tạng",
       "thất bộ luận",
       "pháp tụ",
-      "abhidhamma"
+      "abhidhamma",
+      "phổ biến"
     ],
     "relations": [],
     "resourceIds": [],
     "sources": [
       "https://suttacentral.net/ds"
-    ]
+    ],
+    "volumes": 1
   },
   {
     "id": "vibhanga",
@@ -3216,13 +3261,15 @@
       "luận tạng",
       "thất bộ luận",
       "phân tích",
-      "abhidhamma"
+      "abhidhamma",
+      "phổ biến"
     ],
     "relations": [],
     "resourceIds": [],
     "sources": [
       "https://suttacentral.net/vb"
-    ]
+    ],
+    "volumes": 2
   },
   {
     "id": "dhatukatha",
@@ -3250,7 +3297,8 @@
     "resourceIds": [],
     "sources": [
       "https://suttacentral.net/dt"
-    ]
+    ],
+    "volumes": 1
   },
   {
     "id": "puggalapannatti",
@@ -3277,7 +3325,8 @@
     "resourceIds": [],
     "sources": [
       "https://suttacentral.net/pp"
-    ]
+    ],
+    "volumes": 1
   },
   {
     "id": "kathavatthu",
@@ -3305,7 +3354,8 @@
     "resourceIds": [],
     "sources": [
       "https://suttacentral.net/kv"
-    ]
+    ],
+    "volumes": 2
   },
   {
     "id": "yamaka",
@@ -3332,7 +3382,8 @@
     "resourceIds": [],
     "sources": [
       "https://suttacentral.net/yam"
-    ]
+    ],
+    "volumes": 2
   },
   {
     "id": "patthana",
@@ -3355,12 +3406,14 @@
       "thất bộ luận",
       "vị trí",
       "duyên hệ",
-      "abhidhamma"
+      "abhidhamma",
+      "phổ biến"
     ],
     "relations": [],
     "resourceIds": [],
     "sources": [
       "https://suttacentral.net/patthana"
-    ]
+    ],
+    "volumes": 6
   }
 ]
