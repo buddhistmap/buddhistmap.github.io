@@ -1,0 +1,187 @@
+[
+  {
+    "id": "dn-01-vi",
+    "type": "translation",
+    "language": "vi",
+    "title": "Bản dịch Thích Minh Châu",
+    "provider": "SuttaCentral",
+    "url": "https://suttacentral.net/dn1/vi/minh_chau"
+  },
+  {
+    "id": "dn-01-en",
+    "type": "translation",
+    "language": "en",
+    "title": "Bản dịch Bhikkhu Sujato",
+    "provider": "SuttaCentral",
+    "url": "https://suttacentral.net/dn1/en/sujato"
+  },
+  {
+    "id": "dn-01-pli",
+    "type": "original",
+    "language": "pli",
+    "title": "Văn bản Pāli",
+    "provider": "SuttaCentral",
+    "url": "https://suttacentral.net/dn1/pli/ms"
+  },
+  {
+    "id": "dn-02-vi",
+    "type": "translation",
+    "language": "vi",
+    "title": "Bản dịch Thích Minh Châu",
+    "provider": "SuttaCentral",
+    "url": "https://suttacentral.net/dn2/vi/minh_chau"
+  },
+  {
+    "id": "dn-02-en",
+    "type": "translation",
+    "language": "en",
+    "title": "Bản dịch Bhikkhu Sujato",
+    "provider": "SuttaCentral",
+    "url": "https://suttacentral.net/dn2/en/sujato"
+  },
+  {
+    "id": "dn-02-pli",
+    "type": "original",
+    "language": "pli",
+    "title": "Văn bản Pāli",
+    "provider": "SuttaCentral",
+    "url": "https://suttacentral.net/dn2/pli/ms"
+  },
+  {
+    "id": "dn-022-vi",
+    "type": "translation",
+    "language": "vi",
+    "title": "Bản dịch Thích Minh Châu",
+    "provider": "SuttaCentral",
+    "url": "https://suttacentral.net/dn22/vi/minh_chau"
+  },
+  {
+    "id": "dn-022-en",
+    "type": "translation",
+    "language": "en",
+    "title": "Bản dịch Bhikkhu Sujato",
+    "provider": "SuttaCentral",
+    "url": "https://suttacentral.net/dn22/en/sujato"
+  },
+  {
+    "id": "dn-022-pli",
+    "type": "original",
+    "language": "pli",
+    "title": "Văn bản Pāli",
+    "provider": "SuttaCentral",
+    "url": "https://suttacentral.net/dn22/pli/ms"
+  },
+  {
+    "id": "mn-010-vi",
+    "type": "translation",
+    "language": "vi",
+    "title": "Bản dịch Thích Minh Châu",
+    "provider": "SuttaCentral",
+    "url": "https://suttacentral.net/mn10/vi/minh_chau"
+  },
+  {
+    "id": "mn-010-en",
+    "type": "translation",
+    "language": "en",
+    "title": "Bản dịch Bhikkhu Sujato",
+    "provider": "SuttaCentral",
+    "url": "https://suttacentral.net/mn10/en/sujato"
+  },
+  {
+    "id": "mn-010-pli",
+    "type": "original",
+    "language": "pli",
+    "title": "Văn bản Pāli",
+    "provider": "SuttaCentral",
+    "url": "https://suttacentral.net/mn10/pli/ms"
+  },
+  {
+    "id": "mn-118-vi",
+    "type": "translation",
+    "language": "vi",
+    "title": "Bản dịch Thích Minh Châu",
+    "provider": "SuttaCentral",
+    "url": "https://suttacentral.net/mn118/vi/minh_chau"
+  },
+  {
+    "id": "mn-118-en",
+    "type": "translation",
+    "language": "en",
+    "title": "Bản dịch Bhikkhu Sujato",
+    "provider": "SuttaCentral",
+    "url": "https://suttacentral.net/mn118/en/sujato"
+  },
+  {
+    "id": "mn-118-pli",
+    "type": "original",
+    "language": "pli",
+    "title": "Văn bản Pāli",
+    "provider": "SuttaCentral",
+    "url": "https://suttacentral.net/mn118/pli/ms"
+  },
+  {
+    "id": "sn-56-11-vi",
+    "type": "translation",
+    "language": "vi",
+    "title": "Bản dịch Thích Minh Châu",
+    "provider": "SuttaCentral",
+    "url": "https://suttacentral.net/sn56.11/vi/minh_chau"
+  },
+  {
+    "id": "sn-56-11-en",
+    "type": "translation",
+    "language": "en",
+    "title": "Bản dịch Bhikkhu Sujato",
+    "provider": "SuttaCentral",
+    "url": "https://suttacentral.net/sn56.11/en/sujato"
+  },
+  {
+    "id": "sn-56-11-pli",
+    "type": "original",
+    "language": "pli",
+    "title": "Văn bản Pāli",
+    "provider": "SuttaCentral",
+    "url": "https://suttacentral.net/sn56.11/pli/ms"
+  },
+  {
+    "id": "an-3-65-vi",
+    "type": "translation",
+    "language": "vi",
+    "title": "Bản dịch Thích Minh Châu",
+    "provider": "SuttaCentral",
+    "url": "https://suttacentral.net/an3.65/vi/minh_chau"
+  },
+  {
+    "id": "an-3-65-en",
+    "type": "translation",
+    "language": "en",
+    "title": "Bản dịch Bhikkhu Sujato",
+    "provider": "SuttaCentral",
+    "url": "https://suttacentral.net/an3.65/en/sujato"
+  },
+  {
+    "id": "an-3-65-pli",
+    "type": "original",
+    "language": "pli",
+    "title": "Văn bản Pāli",
+    "provider": "SuttaCentral",
+    "url": "https://suttacentral.net/an3.65/pli/ms"
+  },
+  {
+    "id": "t-0251-zh",
+    "type": "read",
+    "language": "zh",
+    "title": "Văn bản Hán — T 251",
+    "provider": "CBETA",
+    "url": "https://cbetaonline.dila.edu.tw/zh/T0251"
+  },
+  {
+    "id": "sc-audio",
+    "type": "listen",
+    "language": "en",
+    "title": "Thư viện nghe kinh tiếng Anh",
+    "provider": "SuttaCentral Voice",
+    "url": "https://voice.suttacentral.net/",
+    "description": "Thư viện âm thanh chung; tìm mã kinh trên website nguồn."
+  }
+]

@@ -1,0 +1,6 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Tree from '../components/Tree.astro';
+---
+<Layout title="Bản đồ kinh điển"><nav class="breadcrumbs" aria-label="Đường dẫn"><a href="/">Trang chủ</a><span>/</span><span>Bản đồ</span></nav><div class="page-kicker">CẤU TRÚC &amp; ĐƯỜNG ĐI</div><h1>Bản đồ kinh điển</h1><p class="page-intro">Đi từ toàn cảnh đến từng văn bản. Mở một nhánh để khám phá, hoặc chọn tên để xem hồ sơ tra cứu.</p><div class="map-actions"><button id="expand-tree" type="button">Mở tất cả</button><button id="collapse-tree" type="button">Thu gọn tất cả</button></div><div class="map-tree"><Tree expanded/></div><p class="fine-print">Cây thể hiện đường điều hướng chính. Các truyền thống có giao thoa; một đường dẫn không khẳng định văn bản chỉ thuộc một truyền thống.</p></Layout>
+<script>for(const [id,open] of [['expand-tree',true],['collapse-tree',false]] as const){document.getElementById(id)?.addEventListener('click',()=>document.querySelectorAll<HTMLDetailsElement>('.map-tree details').forEach(d=>d.open=open))}</script>

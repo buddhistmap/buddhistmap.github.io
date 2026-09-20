@@ -1,0 +1,19 @@
+---
+import Tree from '../components/Tree.astro';
+import '../styles/global.css';
+interface Props { title: string; description?: string; current?: string }
+const {title,description='Bản đồ tra cứu kinh điển Phật giáo. Khám phá cấu trúc, tên gọi và nguồn đọc, nghe bên ngoài.',current} = Astro.props;
+const nav=[['/map/','Bản đồ'],['/traditions/','Truyền thống'],['/canons/','Kinh điển'],['/collections/','Bộ kinh'],['/texts/','Văn bản'],['/resources/','Nguồn tham khảo']];
+---
+<!doctype html><html lang="vi"><head><meta charset="UTF-8"/><meta name="viewport" content="width=device-width"/><title>{title} · BuddhistMap</title><meta name="description" content={description}/><link rel="canonical" href={new URL(Astro.url.pathname,Astro.site)}/><meta property="og:title" content={`${title} · BuddhistMap`}/><meta property="og:description" content={description}/><meta property="og:type" content="website"/><meta property="og:url" content={new URL(Astro.url.pathname,Astro.site)}/><meta property="og:image" content={new URL('/social.svg',Astro.site)}/><link rel="icon" type="image/svg+xml" href="/favicon.svg"/></head><body>
+<a class="skip-link" href="#main">Đến nội dung chính</a>
+<header class="site-header"><a class="brand" href="/"><span class="brand-mark" aria-hidden="true">◈</span> Buddhist<span>Map</span></a><span class="header-caption">BẢN ĐỒ KINH ĐIỂN PHẬT GIÁO</span><a class="header-search" href="/search/">⌕ <span>Tìm kiếm</span><kbd>/</kbd></a></header>
+<div class="site-shell"><aside class="sidebar"><details class="mobile-nav" open><summary>Danh mục &amp; cây kinh điển</summary><div class="sidebar-content"><p class="eyebrow">KHÁM PHÁ THƯ VIỆN</p><nav aria-label="Điều hướng chính"><a class:list={['nav-link',{active:Astro.url.pathname==='/'}]} href="/">⌂ <span>Tổng quan</span></a>{nav.map(([url,label])=><a class:list={['nav-link',{active:Astro.url.pathname.startsWith(url)}]} href={url}><span>{label}</span>{url==='/map/' && <span class="nav-hint">↗</span>}</a>)}</nav><div class="sidebar-rule"></div><p class="eyebrow">CÂY KINH ĐIỂN</p><Tree current={current}/><a class="about-link" href="/about/">Về BuddhistMap ↗</a><p class="sidebar-note">Một chỉ mục mở.<br/>Nhiều con đường khám phá.</p></div></details></aside>
+<div class="main-column"><main id="main" tabindex="-1"><slot/></main><footer><span>◈ BuddhistMap</span><span>Metadata &amp; cấu trúc · Nội dung tại website nguồn</span><a href="/about/">Phạm vi &amp; phương pháp ↗</a></footer></div></div>
+<script>
+  document.addEventListener('keydown',event=>{if(event.key==='/' && !(event.target instanceof HTMLInputElement) && !(event.target instanceof HTMLTextAreaElement) && !(event.target instanceof HTMLElement && event.target.isContentEditable)){event.preventDefault();window.location.assign('/search/')}});
+  const menu=document.querySelector<HTMLDetailsElement>('.mobile-nav');
+  const narrow=window.matchMedia('(max-width: 800px)');
+  if(menu) { menu.open=!narrow.matches; narrow.addEventListener('change',event=>{menu.open=!event.matches;}); }
+</script>
+</body></html>

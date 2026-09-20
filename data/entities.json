@@ -1,0 +1,538 @@
+[
+  {
+    "id": "theravada",
+    "type": "tradition",
+    "title": "Theravāda",
+    "titles": {
+      "vi": "Theravāda",
+      "original": "Phật giáo Thượng tọa bộ"
+    },
+    "aliases": [],
+    "parent": null,
+    "description": "Khám phá kinh điển Pāli được lưu truyền trong truyền thống Theravāda.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [],
+    "sources": [
+      "https://suttacentral.net/pitaka"
+    ]
+  },
+  {
+    "id": "mahayana",
+    "type": "tradition",
+    "title": "Mahāyāna",
+    "titles": {
+      "vi": "Mahāyāna",
+      "original": "Phật giáo Đại thừa"
+    },
+    "aliases": [],
+    "parent": null,
+    "description": "Lối vào các văn bản Đại thừa. Nhánh Hán truyền dưới đây là một tuyến tra cứu chọn lọc, không đại diện cho toàn bộ Đại thừa.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/"
+    ]
+  },
+  {
+    "id": "vajrayana",
+    "type": "tradition",
+    "title": "Vajrayāna",
+    "titles": {
+      "vi": "Vajrayāna",
+      "original": "Phật giáo Kim cương thừa"
+    },
+    "aliases": [],
+    "parent": null,
+    "description": "Lối vào kinh điển Tây Tạng. Kim cương thừa có quan hệ mật thiết với Đại thừa; các nhánh ở đây không phải các hệ thống loại trừ nhau.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [],
+    "sources": [
+      "https://84000.co/about/faq"
+    ]
+  },
+  {
+    "id": "pali-canon",
+    "type": "canon",
+    "title": "Kinh điển Pāli",
+    "titles": {
+      "vi": "Kinh điển Pāli",
+      "original": "Tipiṭaka"
+    },
+    "aliases": [],
+    "parent": "theravada",
+    "description": "Tam tạng Pāli gồm Luật tạng, Kinh tạng và Luận tạng.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "sc-audio"
+    ],
+    "sources": [
+      "https://suttacentral.net/pitaka"
+    ]
+  },
+  {
+    "id": "chinese-canon",
+    "type": "canon",
+    "title": "Kinh điển Hán truyền",
+    "titles": {
+      "vi": "Kinh điển Hán truyền",
+      "original": "漢文大藏經"
+    },
+    "aliases": [],
+    "parent": "mahayana",
+    "description": "Các bộ Đại tạng kinh bằng Hán văn bao gồm nhiều loại văn bản và truyền thống. Dữ liệu khởi đầu chọn một số văn bản trong Đại Chính tạng.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/"
+    ]
+  },
+  {
+    "id": "tibetan-canon",
+    "type": "canon",
+    "title": "Kinh điển Tây Tạng",
+    "titles": {
+      "vi": "Kinh điển Tây Tạng"
+    },
+    "aliases": [],
+    "parent": "vajrayana",
+    "description": "Hai bộ sưu tập lớn là Kangyur và Tengyur. Kinh điển này chứa cả kinh và các văn bản tantra.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [],
+    "sources": [
+      "https://84000.co/about/faq"
+    ]
+  },
+  {
+    "id": "vinaya-pitaka",
+    "type": "pitaka",
+    "title": "Luật tạng",
+    "titles": {
+      "vi": "Luật tạng",
+      "original": "Vinaya Piṭaka"
+    },
+    "aliases": [],
+    "parent": "pali-canon",
+    "description": "Tạng về giới luật và đời sống tăng đoàn.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [],
+    "sources": [
+      "https://suttacentral.net/pitaka"
+    ]
+  },
+  {
+    "id": "sutta-pitaka",
+    "type": "pitaka",
+    "title": "Kinh tạng",
+    "titles": {
+      "vi": "Kinh tạng",
+      "original": "Sutta Piṭaka"
+    },
+    "aliases": [],
+    "parent": "pali-canon",
+    "description": "Lối vào năm bộ Nikāya trong kinh điển Pāli.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [],
+    "sources": [
+      "https://suttacentral.net/pitaka/sutta"
+    ]
+  },
+  {
+    "id": "abhidhamma-pitaka",
+    "type": "pitaka",
+    "title": "Luận tạng",
+    "titles": {
+      "vi": "Luận tạng",
+      "original": "Abhidhamma Piṭaka"
+    },
+    "aliases": [],
+    "parent": "pali-canon",
+    "description": "Tạng các văn bản phân tích và hệ thống hóa giáo pháp.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [],
+    "sources": [
+      "https://suttacentral.net/pitaka"
+    ]
+  },
+  {
+    "id": "digha-nikaya",
+    "type": "collection",
+    "title": "Trường Bộ",
+    "titles": {
+      "vi": "Trường Bộ",
+      "original": "Dīgha Nikāya"
+    },
+    "aliases": [],
+    "parent": "sutta-pitaka",
+    "description": "Bộ các bài kinh dài.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [],
+    "sources": [
+      "https://suttacentral.net/pitaka/sutta"
+    ]
+  },
+  {
+    "id": "majjhima-nikaya",
+    "type": "collection",
+    "title": "Trung Bộ",
+    "titles": {
+      "vi": "Trung Bộ",
+      "original": "Majjhima Nikāya"
+    },
+    "aliases": [],
+    "parent": "sutta-pitaka",
+    "description": "Bộ các bài kinh có độ dài trung bình.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [],
+    "sources": [
+      "https://suttacentral.net/pitaka/sutta"
+    ]
+  },
+  {
+    "id": "samyutta-nikaya",
+    "type": "collection",
+    "title": "Tương Ưng Bộ",
+    "titles": {
+      "vi": "Tương Ưng Bộ",
+      "original": "Saṃyutta Nikāya"
+    },
+    "aliases": [],
+    "parent": "sutta-pitaka",
+    "description": "Các bài kinh được nhóm theo chủ đề tương ưng.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [],
+    "sources": [
+      "https://suttacentral.net/pitaka/sutta"
+    ]
+  },
+  {
+    "id": "anguttara-nikaya",
+    "type": "collection",
+    "title": "Tăng Chi Bộ",
+    "titles": {
+      "vi": "Tăng Chi Bộ",
+      "original": "Aṅguttara Nikāya"
+    },
+    "aliases": [],
+    "parent": "sutta-pitaka",
+    "description": "Các bài kinh được sắp xếp theo những nhóm pháp có số lượng tăng dần.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [],
+    "sources": [
+      "https://suttacentral.net/pitaka/sutta"
+    ]
+  },
+  {
+    "id": "khuddaka-nikaya",
+    "type": "collection",
+    "title": "Tiểu Bộ",
+    "titles": {
+      "vi": "Tiểu Bộ",
+      "original": "Khuddaka Nikāya"
+    },
+    "aliases": [],
+    "parent": "sutta-pitaka",
+    "description": "Bộ sưu tập gồm nhiều loại văn bản; thành phần có thể khác giữa các truyền thống truyền bản.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [],
+    "sources": [
+      "https://suttacentral.net/pitaka/sutta"
+    ]
+  },
+  {
+    "id": "taisho",
+    "type": "collection",
+    "title": "Đại Chính tạng",
+    "titles": {
+      "vi": "Đại Chính tạng",
+      "original": "Taishō Shinshū Daizōkyō"
+    },
+    "aliases": [],
+    "parent": "chinese-canon",
+    "description": "Ấn bản Đại tạng kinh dùng mã T để tham chiếu văn bản.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/"
+    ]
+  },
+  {
+    "id": "kangyur",
+    "type": "collection",
+    "title": "Kangyur",
+    "titles": {
+      "vi": "Kangyur",
+      "original": "Bản dịch lời Phật"
+    },
+    "aliases": [],
+    "parent": "tibetan-canon",
+    "description": "Bộ sưu tập các văn bản được truyền thống Tây Tạng quy thuộc lời Phật.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [],
+    "sources": [
+      "https://84000.co/about/faq"
+    ]
+  },
+  {
+    "id": "tengyur",
+    "type": "collection",
+    "title": "Tengyur",
+    "titles": {
+      "vi": "Tengyur",
+      "original": "Bản dịch luận giải"
+    },
+    "aliases": [],
+    "parent": "tibetan-canon",
+    "description": "Bộ sưu tập luận giải của các bậc luận sư trong kinh điển Tây Tạng.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [],
+    "sources": [
+      "https://84000.co/about/faq"
+    ]
+  },
+  {
+    "id": "dn-01",
+    "type": "text",
+    "title": "Kinh Phạm Võng",
+    "titles": {
+      "vi": "Kinh Phạm Võng",
+      "pli": "Brahmajāla Sutta",
+      "en": "The Prime Net"
+    },
+    "aliases": [],
+    "parent": "digha-nikaya",
+    "description": "Bài kinh mở đầu Trường Bộ; bàn về giới hạnh và các quan điểm.",
+    "tags": [
+      "giới",
+      "quan điểm"
+    ],
+    "relations": [],
+    "resourceIds": [
+      "dn-01-vi",
+      "dn-01-en",
+      "dn-01-pli"
+    ],
+    "sources": [
+      "https://suttacentral.net/dn1"
+    ],
+    "identifier": "DN 1"
+  },
+  {
+    "id": "dn-02",
+    "type": "text",
+    "title": "Kinh Sa-môn Quả",
+    "titles": {
+      "vi": "Kinh Sa-môn Quả",
+      "pli": "Sāmaññaphala Sutta",
+      "en": "The Fruits of the Ascetic Life"
+    },
+    "aliases": [],
+    "parent": "digha-nikaya",
+    "description": "Bài kinh về những kết quả của đời sống xuất gia.",
+    "tags": [
+      "xuất gia"
+    ],
+    "relations": [],
+    "resourceIds": [
+      "dn-02-vi",
+      "dn-02-en",
+      "dn-02-pli"
+    ],
+    "sources": [
+      "https://suttacentral.net/dn2"
+    ],
+    "identifier": "DN 2"
+  },
+  {
+    "id": "dn-022",
+    "type": "text",
+    "title": "Kinh Đại Niệm Xứ",
+    "titles": {
+      "vi": "Kinh Đại Niệm Xứ",
+      "pli": "Mahāsatipaṭṭhāna Sutta",
+      "en": "The Longer Discourse on Mindfulness Meditation"
+    },
+    "aliases": [],
+    "parent": "digha-nikaya",
+    "description": "Bài kinh về bốn niệm xứ; có nội dung liên quan đến MN 10.",
+    "tags": [
+      "thiền",
+      "niệm xứ"
+    ],
+    "relations": [
+      {
+        "type": "related",
+        "target": "mn-010",
+        "note": "Đối chiếu bài kinh về bốn niệm xứ trong Trung Bộ."
+      }
+    ],
+    "resourceIds": [
+      "dn-022-vi",
+      "dn-022-en",
+      "dn-022-pli"
+    ],
+    "sources": [
+      "https://suttacentral.net/dn22"
+    ],
+    "identifier": "DN 22"
+  },
+  {
+    "id": "mn-010",
+    "type": "text",
+    "title": "Kinh Niệm Xứ",
+    "titles": {
+      "vi": "Kinh Niệm Xứ",
+      "pli": "Satipaṭṭhāna Sutta",
+      "en": "Mindfulness Meditation"
+    },
+    "aliases": [],
+    "parent": "majjhima-nikaya",
+    "description": "Bài kinh về bốn lĩnh vực thiết lập chánh niệm.",
+    "tags": [
+      "thiền",
+      "chánh niệm"
+    ],
+    "relations": [
+      {
+        "type": "related",
+        "target": "dn-022",
+        "note": "Hai bài kinh cùng trình bày bốn niệm xứ; không đồng nhất văn bản."
+      }
+    ],
+    "resourceIds": [
+      "mn-010-vi",
+      "mn-010-en",
+      "mn-010-pli"
+    ],
+    "sources": [
+      "https://suttacentral.net/mn10"
+    ],
+    "identifier": "MN 10"
+  },
+  {
+    "id": "mn-118",
+    "type": "text",
+    "title": "Kinh Nhập Tức Xuất Tức Niệm",
+    "titles": {
+      "vi": "Kinh Nhập Tức Xuất Tức Niệm",
+      "pli": "Ānāpānasati Sutta",
+      "en": "Mindfulness of Breathing"
+    },
+    "aliases": [],
+    "parent": "majjhima-nikaya",
+    "description": "Bài kinh về thực hành chánh niệm hơi thở.",
+    "tags": [
+      "thiền",
+      "hơi thở"
+    ],
+    "relations": [],
+    "resourceIds": [
+      "mn-118-vi",
+      "mn-118-en",
+      "mn-118-pli"
+    ],
+    "sources": [
+      "https://suttacentral.net/mn118"
+    ],
+    "identifier": "MN 118"
+  },
+  {
+    "id": "sn-56-11",
+    "type": "text",
+    "title": "Kinh Chuyển Pháp Luân",
+    "titles": {
+      "vi": "Kinh Chuyển Pháp Luân",
+      "pli": "Dhammacakkappavattana Sutta",
+      "en": "Rolling Forth the Wheel of Dhamma"
+    },
+    "aliases": [],
+    "parent": "samyutta-nikaya",
+    "description": "Bài kinh trình bày con đường trung đạo và bốn sự thật cao quý.",
+    "tags": [
+      "tứ diệu đế",
+      "trung đạo"
+    ],
+    "relations": [],
+    "resourceIds": [
+      "sn-56-11-vi",
+      "sn-56-11-en",
+      "sn-56-11-pli"
+    ],
+    "sources": [
+      "https://suttacentral.net/sn56.11"
+    ],
+    "identifier": "SN 56.11"
+  },
+  {
+    "id": "an-3-65",
+    "type": "text",
+    "title": "Kinh Kālāma",
+    "titles": {
+      "vi": "Kinh Kālāma",
+      "pli": "Kesamutti Sutta",
+      "en": "With the Kālāmas of Kesamutta"
+    },
+    "aliases": [
+      "Kinh Kesaputta",
+      "Kinh Kalama"
+    ],
+    "parent": "anguttara-nikaya",
+    "description": "Bài kinh về việc xem xét các giáo huấn và hệ quả của hành động.",
+    "tags": [
+      "Kalama",
+      "Kesaputti",
+      "đạo đức"
+    ],
+    "relations": [],
+    "resourceIds": [
+      "an-3-65-vi",
+      "an-3-65-en",
+      "an-3-65-pli"
+    ],
+    "sources": [
+      "https://suttacentral.net/an3.65"
+    ],
+    "identifier": "AN 3.65"
+  },
+  {
+    "id": "t-0251",
+    "type": "text",
+    "title": "Bát-nhã Tâm Kinh",
+    "titles": {
+      "vi": "Bát-nhã Tâm Kinh",
+      "original": "般若波羅蜜多心經"
+    },
+    "aliases": [
+      "Heart Sutra",
+      "Prajñāpāramitāhṛdaya",
+      "Tâm kinh"
+    ],
+    "parent": "taisho",
+    "description": "Bản T 251 của Tâm Kinh trong Đại Chính tạng, gắn với bản dịch Huyền Trang.",
+    "tags": [],
+    "relations": [],
+    "resourceIds": [
+      "t-0251-zh"
+    ],
+    "sources": [
+      "https://cbetaonline.dila.edu.tw/zh/T0251"
+    ],
+    "identifier": "T 251"
+  }
+]

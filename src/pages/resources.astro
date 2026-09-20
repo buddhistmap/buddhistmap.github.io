@@ -1,0 +1,6 @@
+---
+import Layout from '../layouts/Layout.astro';
+import Resources from '../components/Resources.astro';
+import {resources} from '../lib/data';
+---
+<Layout title="Nguồn tham khảo"><nav class="breadcrumbs" aria-label="Đường dẫn"><a href="/">Trang chủ</a><span>/</span><span>Nguồn tham khảo</span></nav><div class="page-kicker">TIẾP TỤC HÀNH TRÌNH</div><h1>Nguồn tham khảo</h1><p class="page-intro">Các liên kết đọc và nghe được lập chỉ mục. Mỗi nguồn ghi rõ nhà cung cấp và ngôn ngữ; nội dung mở trực tiếp ở website bên ngoài.</p><Resources items={resources}/><p class="fine-print">Liên kết có thể thay đổi theo thời gian. Một số website nguồn cần bật JavaScript.</p></Layout>

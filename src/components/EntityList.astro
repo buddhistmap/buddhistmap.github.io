@@ -1,0 +1,11 @@
+---
+import { href, labels } from '../lib/data';
+import type { Entity } from '../lib/schema';
+interface Props { items: Entity[] }
+const { items } = Astro.props;
+---
+<div class="entity-list">{items.map(e => <a class="entity-row" href={href(e)}>
+  <span class="entity-code">{e.identifier || labels[e.type]}</span>
+  <span><strong>{e.title}</strong><small>{e.titles.pli || e.titles.original || e.titles.en || e.description}</small></span>
+  <span aria-hidden="true" class="row-arrow">↗</span>
+</a>)}</div>

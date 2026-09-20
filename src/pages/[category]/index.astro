@@ -1,0 +1,11 @@
+---
+import Layout from '../../layouts/Layout.astro';
+import EntityList from '../../components/EntityList.astro';
+import {entities,segments,labels} from '../../lib/data';
+import type {Entity} from '../../lib/schema';
+export function getStaticPaths(){return [...new Set(entities.map(e=>e.type))].map(type=>({params:{category:segments[type]},props:{type}}))}
+interface Props {type:Entity['type']}
+const {type}=Astro.props;
+const items=entities.filter(e=>e.type===type);
+---
+<Layout title={labels[type]}><nav class="breadcrumbs" aria-label="Đường dẫn"><a href="/">Trang chủ</a><span aria-hidden="true">/</span><span>{labels[type]}</span></nav><div class="page-kicker">DANH MỤC TRA CỨU · {items.length} MỤC</div><h1>{labels[type]}</h1><p class="page-intro">Khám phá các mục đã được lập chỉ mục. Mỗi trang cung cấp vị trí trong hệ thống, tên gọi và nguồn tham khảo.</p><EntityList items={items}/><p class="fine-print">Danh mục chọn lọc của phiên bản khởi đầu, chưa phải toàn bộ kinh điển.</p></Layout>
