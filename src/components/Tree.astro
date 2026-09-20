@@ -7,10 +7,27 @@ const currentEntity = current ? entityById.get(current) : undefined;
 const activePath = currentEntity ? ancestors(currentEntity).map(e => e.id) : [];
 ---
 <ul class="tree">
-  {nodes.map(node => <li id={anchors ? `node-${node.id}` : undefined} data-entity-id={anchors ? node.id : undefined}>
-    {children(node.id).length ? <details open={expanded || parent === null || current === node.id || activePath.includes(node.id)}>
-      <summary><a href={href(node)} aria-current={current === node.id ? 'page' : undefined}>{node.title}</a></summary>
-      <Astro.self parent={node.id} current={current} expanded={expanded} anchors={anchors}/>
-    </details> : <a class="tree-leaf" href={href(node)} aria-current={current === node.id ? 'page' : undefined}>{node.identifier ? `${node.identifier} · ` : ''}{node.title}</a>}
-  </li>)}
+  {nodes.map(node => {
+    const isPopular = node.tags.includes('phổ biến');
+    return (
+      <li id={anchors ? `node-${node.id}` : undefined} data-entity-id={anchors ? node.id : undefined}>
+        {children(node.id).length ? (
+          <details open={expanded || parent === null || current === node.id || activePath.includes(node.id)}>
+            <summary>
+              <a href={href(node)} aria-current={current === node.id ? 'page' : undefined} class={isPopular ? 'popular-entity' : undefined}>
+                {node.title}
+              </a>
+              {node.volumes && <span class="volume-badge">({node.volumes} {node.id === 'khuddaka-nikaya' ? 'tập' : 'quyển'})</span>}
+            </summary>
+            <Astro.self parent={node.id} current={current} expanded={expanded} anchors={anchors}/>
+          </details>
+        ) : (
+          <a class={`tree-leaf ${isPopular ? 'popular-entity' : ''}`} href={href(node)} aria-current={current === node.id ? 'page' : undefined}>
+            {node.identifier ? `${node.identifier} · ` : ''}{node.title}
+            {node.volumes && <span class="volume-badge">({node.volumes} quyển)</span>}
+          </a>
+        )}
+      </li>
+    );
+  })}
 </ul>

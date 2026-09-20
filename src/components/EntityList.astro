@@ -4,8 +4,19 @@ import type { Entity } from '../lib/schema';
 interface Props { items: Entity[] }
 const { items } = Astro.props;
 ---
-<div class="entity-list">{items.map(e => <a class="entity-row" href={href(e)}>
-  <span class="entity-code">{e.identifier || labels[e.type]}</span>
-  <span><strong>{e.title}</strong><small>{e.titles.pli || e.titles.original || e.titles.en || e.description}</small></span>
-  <span aria-hidden="true" class="row-arrow">↗</span>
-</a>)}</div>
+<div class="entity-list">{items.map(e => {
+  const isPopular = e.tags.includes('phổ biến');
+  return (
+    <a class="entity-row" href={href(e)}>
+      <span class="entity-code">{e.identifier || labels[e.type]}</span>
+      <span>
+        <strong class={isPopular ? 'popular-title' : undefined}>
+          {e.title}
+          {e.volumes && <span class="volume-pill">({e.volumes} {e.id === 'khuddaka-nikaya' ? 'tập' : 'quyển'})</span>}
+        </strong>
+        <small>{e.titles.pli || e.titles.original || e.titles.en || e.description}</small>
+      </span>
+      <span aria-hidden="true" class="row-arrow">↗</span>
+    </a>
+  );
+})}</div>
