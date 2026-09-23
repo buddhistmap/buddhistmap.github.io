@@ -1,8 +1,46 @@
 ---
 import type { Resource } from '../lib/schema';
-interface Props { items: Resource[] }
-const { items } = Astro.props;
+interface Props { items: Resource[]; showParts?: boolean }
+const { items, showParts = true } = Astro.props;
 const groups = [{label:'Đọc',types:['read','translation','original']},{label:'Nghe',types:['listen']},{label:'Xem',types:['video']},{label:'Tham khảo',types:['reference']}];
 const languages: Record<string,string> = {vi:'Tiếng Việt',en:'Tiếng Anh',pli:'Pāli',zh:'Hán văn',bo:'Tiếng Tây Tạng'};
 ---
-{groups.map(group => {const matches = items.filter(r=>group.types.includes(r.type)); return matches.length > 0 && <section class="resource-group"><h3>{group.label}</h3><div class="resource-grid">{matches.map(r=><a class="resource-card" href={r.url} target="_blank" rel="noopener noreferrer"><span class="eyebrow">{languages[r.language] || r.language}<span aria-hidden="true"> ↗</span></span><strong>{r.title}</strong><small>{r.provider} · Mở website nguồn</small>{r.description && <small>{r.description}</small>}</a>)}</div></section>})}
+{groups.map(group => {
+  const matches = items.filter(r=>group.types.includes(r.type));
+  return matches.length > 0 && <section class="resource-group">
+    <h3>{group.label}</h3>
+    <div class="resource-grid">{matches.map(r=><article class:list={['resource-item', {'has-audio': r.audio}]}>
+      <a class="resource-card" href={r.url} target="_blank" rel="noopener noreferrer">
+        <span class="eyebrow">{languages[r.language] || r.language}{r.audio && ` · ${r.audio.format === 'playlist' ? 'Playlist' : 'Audio / video'}`}<span aria-hidden="true"> ↗</span></span>
+        <strong>{r.title}</strong>
+        <small>{r.provider} · {r.audio ? 'Nghe trên YouTube' : 'Mở website nguồn'}</small>
+        {r.description && <small>{r.description}</small>}
+      </a>
+      {r.audio && <div class="audio-info">
+        <span class="audio-kind">{r.audio.kind === 'reading' ? 'Diễn đọc' : 'Tụng kinh'}</span>
+        <p>{r.audio.coverage}</p>
+        {showParts && r.audio.parts && r.audio.parts.length > 0 && <details class="audio-parts">
+          <summary>Chọn phần nghe <span>{r.audio.parts.length} phần</span></summary>
+          <ol>{r.audio.parts.map(part=><li><a href={part.url} target="_blank" rel="noopener noreferrer">{part.title}<span aria-hidden="true"> ↗</span></a></li>)}</ol>
+        </details>}
+        <small>{r.audio.catalogStatus === 'all-listed' ? 'Đã lập chỉ mục tất cả video được liệt kê.' : r.audio.catalogStatus === 'partial' ? 'Danh sách phần chưa đầy đủ.' : 'Nguồn nghe riêng.'} Đối chiếu {r.audio.checkedAt}.</small>
+      </div>}
+    </article>)}</div>
+  </section>;
+})}
+<style>
+  .resource-item{min-width:0;border:1px solid var(--line);border-radius:4px;background:var(--white);overflow:hidden}
+  .resource-item .resource-card{border:0;border-radius:0;height:100%}
+  .resource-item.has-audio .resource-card{height:auto}
+  .audio-info{padding:0 21px 20px;font-size:11px;line-height:1.8}
+  .audio-kind{display:inline-block;color:var(--green);background:var(--soft);padding:2px 8px;border-radius:3px;font-size:10px}
+  .audio-info p{margin:10px 0;color:var(--muted)}
+  .audio-info>small{display:block;color:var(--muted);font-size:10px;margin-top:12px}
+  .audio-parts{border-top:1px solid var(--line);border-bottom:1px solid var(--line)}
+  .audio-parts summary{padding:12px 0;color:var(--green);font-weight:500}
+  .audio-parts summary span{font-size:10px;font-weight:400;margin-left:6px}
+  .audio-parts ol{max-height:340px;overflow:auto;overscroll-behavior:contain;padding:0 8px 0 30px;margin:0 0 12px;scrollbar-color:#aab8a9 var(--soft)}
+  .audio-parts li{padding:0 0 0 3px;color:var(--muted)}
+  .audio-parts li a{display:block;padding:9px 3px;border-bottom:1px solid var(--line);color:var(--ink);overflow-wrap:anywhere}
+  .audio-parts li a:hover{text-decoration:underline;color:var(--green)}
+</style>

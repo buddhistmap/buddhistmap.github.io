@@ -6,6 +6,16 @@ const url = z.url().refine(value => ['http:', 'https:'].includes(new URL(value).
 export const ResourceSchema = z.object({
   id, type: z.enum(['read', 'listen', 'video', 'translation', 'original', 'reference']),
   language: nonempty, title: nonempty, provider: nonempty, url, description: nonempty.optional(),
+  audio: z.object({
+    format: z.enum(['video', 'playlist']),
+    kind: z.enum(['reading', 'chanting']),
+    checkedAt: z.iso.date(),
+    evidenceUrl: url,
+    coverage: nonempty,
+    catalogStatus: z.enum(['all-listed', 'partial', 'single']),
+    listedCount: z.number().int().positive().optional(),
+    parts: z.array(z.object({title: nonempty, url}).strict()).optional(),
+  }).strict().optional(),
 }).strict();
 export const EntitySchema = z.object({
   id, type: z.enum(['tradition', 'canon', 'pitaka', 'collection', 'text', 'section', 'concept', 'person', 'place']),
@@ -50,6 +60,29 @@ export function validateData(rawEntities: unknown, rawResources: unknown, rawTra
   }
   if (byId.size !== entities.length) throw new Error('Duplicate entity ID');
   if (resourceIds.size !== resources.length) throw new Error('Duplicate resource ID');
+  for (const resource of resources) {
+    const audio = resource.audio;
+    if (!audio) continue;
+    if (resource.type !== 'listen') throw new Error(`Audio metadata requires listen resource: ${resource.id}`);
+    const source = new URL(resource.url);
+    const youtubeUrl = (value: string) => {
+      const link = new URL(value);
+      return link.protocol === 'https:' && link.hostname === 'www.youtube.com' &&
+        ((link.pathname === '/watch' && /^[\w-]{11}$/.test(link.searchParams.get('v') || '')) ||
+         (link.pathname === '/playlist' && /^PL[\w-]+$/.test(link.searchParams.get('list') || '')));
+    };
+    if (!youtubeUrl(resource.url) || (audio.format === 'playlist') !== (source.pathname === '/playlist')) throw new Error(`Invalid YouTube audio URL: ${resource.id}`);
+    const parts = audio.parts || [];
+    const videos = new Set<string>();
+    for (const part of parts) {
+      const link = new URL(part.url);
+      const video = link.searchParams.get('v');
+      if (!youtubeUrl(part.url) || link.pathname !== '/watch' || videos.has(video!)) throw new Error(`Invalid or duplicate audio part: ${resource.id}`);
+      if (audio.format === 'playlist' && link.searchParams.get('list') !== source.searchParams.get('list')) throw new Error(`Audio part belongs to another playlist: ${resource.id}`);
+      videos.add(video!);
+    }
+    if (audio.catalogStatus === 'all-listed' && (!audio.listedCount || parts.length !== audio.listedCount)) throw new Error(`Incomplete playlist catalog: ${resource.id}`);
+  }
   for (const entity of entities) {
     if (entity.type === 'text' && !entity.identifier) throw new Error(`Missing text identifier: ${entity.id}`);
     if (entity.type === 'tradition' && entity.parent) throw new Error(`Tradition must be a root: ${entity.id}`);
