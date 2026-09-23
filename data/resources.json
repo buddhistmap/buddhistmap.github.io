@@ -201,6 +201,15 @@
     "url": "https://cbetaonline.dila.edu.tw/zh/T0220"
   },
   {
+    "id": "t-0220-audio-vi",
+    "type": "listen",
+    "language": "vi",
+    "title": "Kinh Đại Bát Nhã Trọn Bộ 600 Quyển",
+    "provider": "YouTube",
+    "url": "https://www.youtube.com/playlist?list=PLqqtEBCTsFQ39j_UGETaUsz6r2K_T4qVq",
+    "description": "Danh sách phát audio tụng/đọc trọn bộ 600 quyển Kinh Đại Bát-nhã Ba-la-mật-đa."
+  },
+  {
     "id": "t-0289-zh",
     "type": "read",
     "language": "zh",
